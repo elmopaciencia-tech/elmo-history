@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HH3002 Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Shippori+Mincho:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%232b231d'/%3E%3Ccircle cx='32' cy='32' r='18' fill='%23c55034'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./src/styles.css?v=remote-image-embeds" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.165.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#article">Skip to article</a>
+
+    <main class="map-story">
+      <section class="map-stage" aria-label="2D overview map of Japan">
+        <canvas id="japan-map" aria-label="Interactive 2D map of Japan"></canvas>
+        <div class="map-fallback" id="map-fallback" role="status">
+          <strong>Map unavailable.</strong>
+          <span>The essay remains readable below with the same section sequence.</span>
+        </div>
+        <div class="map-shade" aria-hidden="true"></div>
+        <div class="map-title" id="map-title">
+          <h1>Masks, Mandates, and Modernity: The History Behind Japan’s Vaccine Hesitancy</h1>
+        </div>
+        <div class="map-pin-labels" id="map-pin-labels" aria-label="Significant locations in Japan"></div>
+        <div class="map-status" id="map-status">Loading map</div>
+        <nav class="stop-rail" aria-label="Story progress">
+          <button class="stop-dot is-active" type="button" data-stop-target="overview"><span>Digital exhibition</span></button>
+          <button class="stop-dot" type="button" data-stop-target="tokyo"><span>Tokyo</span></button>
+          <button class="stop-dot" type="button" data-stop-target="nagasaki"><span>Nagasaki / Dejima</span></button>
+          <button class="stop-dot" type="button" data-stop-target="edoTokyo"><span>Edo / Tokyo</span></button>
+          <button class="stop-dot" type="button" data-stop-target="kyotoShimane"><span>Kyoto-Shimane</span></button>
+          <button class="stop-dot" type="button" data-stop-target="nationalConclusion"><span>Japan</span></button>
+        </nav>
+      </section>
+
+      <section class="story-panels" id="article" aria-label="Essay sections">
+        <article class="story-panel story-panel--opening" id="stop-overview" data-stop="overview" aria-label="Digital exhibition overview">
+          <div class="story-card">
+            <div class="story-card__media">
+              <img src="./3djapan/background.jpeg" alt="A rendered geographic overview of Japan" />
+            </div>
+            <p class="story-card__eyebrow">Digital exhibition</p>
+          </div>
+        </article>
+
+        <article class="story-panel" id="stop-tokyo" data-stop="tokyo" aria-labelledby="panel-tokyo">
+          <div class="story-card">
+            <div class="story-card__media">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TOKYO_2020._%2849734964521%29.jpg/1280px-TOKYO_2020._%2849734964521%29.jpg" alt="People in Tokyo wearing masks during the COVID-19 pandemic" />
+            </div>
+            <p class="story-card__eyebrow">Tokyo</p>
+            <div class="panel-prose">
+              <p>Death, taxes, a PAP victory and a trip to Japan. The 4 inevitable facts of life that Singaporeans my age must face. For one of my friends, their rite of passage was at hand, as we recently paid for round-trip tickets to Tokyo in May after the semester. Ignoring the glaring red numbers in my bank account, I couldn’t help but reminisce about my inaugural pilgrimage to the Land of The Rising Sun in December 2022, my first time even stepping out of non-Southeast Asian lands. As expected, I was no better than other Singaporeans, and was completely enamoured during my time there. The trip was a perfect, beautiful symphony of experiences: amazing food, people, attractions, and especially beautiful nature (it was also my first time experiencing cold weather).</p>
+              <h3 id="panel-tokyo">Encountering Japan’s COVID Paradox</h3>
+              <p>However, like static on your favourite vinyl record, nothing can truly be perfect, and in this symphony, the mandate to wear masks brought me back to reality. Perplexingly, mask-wearing continued to be the norm on my return the following year, even without a mandate.</p>
+              <p>Regarding their response to the pandemic, Japan rolled out their vaccines much later than other developed countries in February 2021. What surprised me was the extremely low vaccination rate in the initial months (about 10 times lower than its Western counterparts), only rising when infections surged. On one hand mask-wearing could be seen as scientifically responsible behaviour, indicating that people viewed the threat of COVID very seriously. Paradoxically, the low vaccination rate could indicate the opposite, as the safety and efficacy of the vaccines had been lauded, so the low vaccination could be considered scientifically irresponsible. Within this dissonance of truth, science and responsibility that had permeated the lives of the everyday Japanese person, I began my enquiry: Why were vaccines so controversial in Japan, an otherwise medically advanced society? What were the historical factors that lead to the stark contrast in the attitudes towards COVID?</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-panel" id="stop-nagasaki" data-stop="nagasaki" aria-labelledby="panel-nagasaki">
+          <div class="story-card">
+            <div class="story-card__media">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Dutch_mansions_in_Dejima%2C_Nagasaki_%28Nagasaki_Dejima_Rankan_no_zu%29_%28CBL_J_1131%29.jpg/1280px-Dutch_mansions_in_Dejima%2C_Nagasaki_%28Nagasaki_Dejima_Rankan_no_zu%29_%28CBL_J_1131%29.jpg" alt="Dutch mansions in Dejima, Nagasaki" />
+            </div>
+            <p class="story-card__eyebrow">Nagasaki / Dejima</p>
+            <div class="panel-prose">
+              <h3>From Inoculation to Vaccination: The Global Origins of Preventive Medicine</h3>
+              <figure class="story-inline-media story-inline-media--portrait">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Edward_Jenner.jpg/1280px-Edward_Jenner.jpg" alt="Portrait of Edward Jenner" loading="lazy" />
+                <figcaption>Edward Jenner: the cowpox experiment becomes the origin point of vaccination.</figcaption>
+              </figure>
+              <p>I began by tracing the history of vaccination as a concept. According to Arthur Boylston in “The Origins of Inoculation”, the origins of vaccination laid in China with its earliest reference originating in 1549. They used insufflation, a process where one inhales attenuated smallpox infected material in order to induce a mild form of smallpox, becoming immune to future smallpox outbreaks. By the 17th century, a modified procedure became commonplace in the Middle East – variolation, where a needle with infected smallpox material would be pierced onto a healthy person. This also became known as inoculation, and within the next century, the Europeans adopted it as well.</p>
+              <p>“The life of Edward Jenner” by Dr Newsom then addresses the origins of vaccination. As a child, Edward Jenner was variolated during a smallpox epidemic. Jenner and others faced terrible side effects which had inevitably left a poor impression of the practice to him. In the future, Jenner remained curious about how people who suffered from cowpox became immune to smallpox, forming a connection in his mind of cross immunity between the 2 diseases. This then led to the famous inoculation of village boy James Phippes in 1796 using material from someone infected with cowpox. He recovered quickly and proved to be immune to smallpox, thus validating Edward’s experiments. Two years later, Jenner would publish “An Inquiry Into the Causes and Effects of Variolae Vaccinae”, therefore establishing the practice of vaccination (“vacca” in Latin meaning cow). Natural cowpox infections were not likely to be fatal or debilitating which makes vaccination far less risky than variolation.</p>
+              <h3 id="panel-nagasaki">Vaccination Arrives in Japan: Medicine Between China and the West</h3>
+              <figure class="story-inline-media story-inline-media--book">
+                <img src="https://covers.openlibrary.org/b/isbn/9780804754897-L.jpg" alt="Cover of Ann Jannetta's The Vaccinators" loading="lazy" />
+                <figcaption>Book note: Ann Jannetta’s <cite>The Vaccinators</cite> follows Jennerian vaccination into pre-Meiji Japan.</figcaption>
+              </figure>
+              <p>The arrival of inoculation in Japan was chronicled in “Faith healing and vaccination against smallpox in nineteenth-century Japan” by Hiroshi Kawaguchi. Arriving in Japan from China in 1744, inoculator Li Jen-San disseminated this practice through insufflation. Hiroshi’s paper made heavy use of diaries across Japan to chronicle the arrival and reaction towards vaccination in Japan starting in the 1830s. He noted a Mr Sashida, who had written about a village head in Kioroshigawa, Jirobei, who had performed variolation on a child, which was risky and led to the death of some children.</p>
+              <p>Ann Jannetta’s “Jennerian Vaccination and the Creation of a National Public Health Agenda in Japan&quot; adds further context as it places the arrival of the knowledge of vaccinations in Japan in 1803 via the Dutch, the sole European power that Japan directly traded with. Western knowledge was typically suppressed, but medicinal knowledge was exempted due to its perceived usefulness, allowing information about vaccines to spread. A major factor in the delay between knowledge and application of vaccination was the importation of cowpox, which was not native to Japan. From 1821 to 1826, the Dutch sent cowpox samples every year but the long and hot voyage always rendered them ineffective by the time it reached Japan.</p>
+              <p>Janetta also introduces the concept of ranpo and kanpo doctors, who followed Western and Chinese style medicines respectively. As a western discovery, vaccines initially were mostly practised by ranpo doctors as the original materials were in Dutch. Dutch medical institutes called rangaku translated these works into Japanese and became instrumental in spreading knowledge about the practice. In 1848, another batch of cowpox arrived ineffective in Japan, leading some ranpo doctors to borrow an idea from Chinese style variolation, asking the Dutch to send cowpox scabs instead, the same style of preservation for smallpox samples used for variolation. This led to the first successful Jennerian vaccination in 1849, done by Dr Otto Gottlieb Johann Mohnike, a surgeon in the Dutch East India Company.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-panel" id="stop-edoTokyo" data-stop="edoTokyo" aria-labelledby="panel-edoTokyo">
+          <div class="story-card">
+            <div class="story-card__media">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Emperor_Meiji_in_1873.jpg" alt="Emperor Meiji photographed in 1873" />
+            </div>
+            <p class="story-card__eyebrow">Edo / Tokyo</p>
+            <div class="panel-prose">
+              <h3>Medical Pluralism and the Politics of Knowledge</h3>
+              <figure class="story-inline-media">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Ota_Chou_-_Smallpox_Vaccination.jpg" alt="Ota Chou Smallpox Vaccination artwork" loading="lazy" />
+                <figcaption>Artwork note: Ota Chou’s vaccination scene visualizes the practice debated by kanpo and ranpo doctors.</figcaption>
+              </figure>
+              <p>I also sought to understand the perspective of kanpo doctors in response to these developments, which I found in “Vaccination and the Politics of Medical Knowledge in Nineteenth-Century Japan”, where Trambaiolio emphasises the plurality of knowledge of health, disease and medicine in Japan at that time. Initially, vaccinations were not fully accepted. The kanpo doctors, trained in Chinese Medicine, used that system to interpret smallpox, viewing it as an “innate poison” existing within a patient’s body, which erupts due to diet, fright or qi. The appearance of pox was seen as the body purging itself of the poison, which explained why most people suffered from smallpox only once in their lives. As a result, kanpo doctors saw the mild reaction induced by vaccination to mean that the “innate poison” had not fully expelled, rendering them vulnerable for future “eruptions”. Although vaccination had been known in Japan since the early 19th century, many influential doctors continued to assert Chinese aetiological views of medicine. It was not until Cantonese doctor Qiu Xi in his treatise framed vaccinations in kanpo terms when vaccinations would gain greater acceptance across Japan. The spread of vaccinations then led to greater acceptance of Western knowledge. Trambaiolio also captures the aspect of sovereignty that worried Japan at this time, stating that “the threat of foreign aggression made imitation of Western technologies seem inevitable if Japan was to retain its own identity and strength”. In understanding vaccines in Eastern terms, kanpo doctors regained sovereignty in their practice.</p>
+              <h3 id="panel-edoTokyo">The Meiji State and the Scientization of Public Health</h3>
+              <figure class="story-inline-media story-inline-media--book">
+                <img src="https://covers.openlibrary.org/b/isbn/9781850654476-L.jpg" alt="Cover of Richard Sims's Japanese Political History Since the Meiji Restoration" loading="lazy" />
+                <figcaption>Book note: Richard Sims’s political history frames the Meiji state behind the public-health turn.</figcaption>
+              </figure>
+              <p>The allure of vaccinations would not be lost on the governments, and would therefore be strongly affected by politics. Hence, I sought out to understand the political history of Japan through the book “Japanese Political History since the Meiji Renovation” by Richard Simms. The Meiji Restoration began in 1868 when Imperial rule was restored to Japan, who attempted to modernize to rise to equal status with western powers. Under the new constitution brought about by the Emperor in 1889, the line of Emperors will govern Japan eternally and that “the rights of sovereignty were vested in him”. To consolidate their power, the Meiji government setup districts to take control of the countryside, expanded the police and repressed dissent. The Home Minister became pivotal in the suspension of civil liberties, repression of the media and violence towards dissenters. Education also became another avenue for indoctrination, alongside propaganda.</p>
+              <figure class="story-inline-media story-inline-media--portrait">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Emperor_Meiji_in_1873.jpg" alt="Emperor Meiji photographed in 1873" loading="lazy" />
+                <figcaption>Person note: Emperor Meiji’s image anchors the section’s turn toward sovereignty and state power.</figcaption>
+              </figure>
+              <p>Digressing for a moment, Jannetta’s earlier source stresses the Meiji government’s support of vaccines. The Meiji government quickly established the Central Sanitary Bureau which subsequently outlawed variolation, deemed Jennerian vaccination the sole legal method of protection against smallpox, provided vaccines for free, and mandated it for children. For the Meiji government, the “foreign” aspect of vaccines represented the path forward to modernity and equality with western powers.</p>
+              <p>While there were some attempts to liberalise in the years to follow, this would be halted by the nationalism that swept over Japan in the 1930s due to their military successes, which made the military extremely influential in Japan. It was not until the American Occupation of Japan that liberalism would return to Japan. A new constitution was imposed on Japan with “far-reaching guarantees of human rights, including “freedom of thought, religion, assembly, association, speech, press, emigration and marriage… [and] judicial independence”. In most respects, the return of civil liberties allowed discourse to open up again without the threat of state intervention. The independence of the Judiciary also opened up the government to more accountability in the future.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-panel" id="stop-kyotoShimane" data-stop="kyotoShimane" aria-labelledby="panel-kyotoShimane">
+          <div class="story-card">
+            <div class="story-card__media">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Ota_Chou_-_Smallpox_Vaccination.jpg" alt="Ota Chou Smallpox Vaccination artwork" />
+            </div>
+            <p class="story-card__eyebrow">Kyoto-Shimane</p>
+            <div class="panel-prose">
+              <h3>Medicine, Empire, and Coercion</h3>
+              <figure class="story-inline-media">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Field_hospital_of_Nanking.jpg" alt="Japanese military medics at a field hospital in Nanking" loading="lazy" />
+                <figcaption>Archive note: military medicine could appear as care while operating inside imperial violence.</figcaption>
+              </figure>
+              <p>World War 2 was another major era for Japan. As a projection of Japanese power, warfare should have involved all of Japan’s scientific and medical developments, including vaccines. I explored this through the article “Between trust and violence: medical encounters under Japanese military occupation during the War in China”, which highlighted the role of medical institutions in the Japanese war effort. Medicine served as a soft power to pacify their colonies after the violence inflicted by the Imperial Japanese Army(IJA). They employed senbukan 宣撫官, pacification agents, hoping to transfer the goodwill towards Japanese rule. To this end, the Japanese Red Cross opened hospitals and clinics to provide healthcare free of charge for the population, as a show to the world of the “civilised, superior nature” of Japan, legitimising their invasion in the eyes of Western powers. This entailed vaccination campaigns, which were imposed onto the colonies, which were strongly resisted as people feared the contents of the vaccine, believing it to be poison. Nevertheless, noncompliance was not an option, as the IJA were always able to exercise violence. In this instance, Japanese vaccines both represented life and death, warfare and medicine. This led me to question my presuppositions of science, modernity and medicine in Japan.</p>
+              <h3 id="panel-kyotoShimane">The American Occupation and the Roots of Vaccine Distrust</h3>
+              <figure class="story-inline-media story-inline-media--portrait">
+                <img src="https://arsof-history.org/icons/images/thumb/sams.jpg" alt="Portrait of Brigadier General Crawford F. Sams" loading="lazy" />
+                <figcaption>Person note: Crawford F. Sams becomes the face of occupation-era public-health authority in this section.</figcaption>
+              </figure>
+              <p>Japan would undergo another major transformation after war. Their cities were devastated by conventional, fire and nuclear bombings which left the country vulnerable to epidemics. Following their defeat, the Japanese were subjected to an occupation by the United States. Chris Aldous’ “Transforming Public Health?: A Critical Review of Progress Made Against Enteric Diseases during the American-led Occupation of Japan” would provide me more context, expanding on the role medicine played in the legitimisation of the American Occupational Authorities in Japan. Aldous’ major focus was on the statements by American Brigadier General Crawford Sams, who had proclaimed the success of the Occupational Authorities in curtailing disease in Japan. In his speech, he applies a dichotomy between the “modern” American programmes in the once “underdeveloped Orient”, providing the “gift of life” to millions projected to be spared from disease and packaging these all as the natural result of “democracy”. These underscore the role that medicine played in the American regime perfectly, being a neutral, apolitical avenue that confirms their superiority and therefore, legitimacy in their rule. Additionally, the improvement in living standards can be seen as a response to American concerns about the rise of Communism in Japan, as a prosperous Japan would be less susceptible to communist influence than a poor and dishevelled one.</p>
+              <p>Andrew Gordon and Michael Reich’s “The Puzzle of Vaccine Hesitancy in Japan” provides context on the rest of the history of vaccinations in Japan. The pivotal moment in this era was the enactment of the Immunization Law by US Occupational authorities in 1948, which mandated routine vaccinations for smallpox, typhoid, typhus, diphtheria, pertussis, and TB for Japanese citizens, with stiff penalties for noncompliance. Japanese officials expressed concern over the inevitable side effects which was dismissed by their American counterparts as unscientific. Tragically, a string of vaccine side effect injuries soon followed, notably the Kyoto-Shimane diphtheria incident of 1948 when thousands of babies were administered poor quality, toxic vaccinations as part of the vaccine mandate, leading to the death of 84 infants and 854 more being harmed. This incident, alongside others, led to growing distrust and public backlash towards the mandate, leading to lawsuits of yakugai (pharmaceutical harm) against the government. These scandals, lawsuits, and government debates led to the 1994 revision of the Immunization Law, removing penalties for noncompliance and replacing the mandate with recommended and voluntary immunizations, resulting in high and low rates of coverage for each type respectively. Vaccinations also were now moved from public health centres to private institutions, giving people agency where, when or even if they vaccinate.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-panel" id="stop-nationalConclusion" data-stop="nationalConclusion" aria-labelledby="panel-nationalConclusion">
+          <div class="story-card">
+            <div class="story-card__media">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TOKYO_2020._%2849734964521%29.jpg/1280px-TOKYO_2020._%2849734964521%29.jpg" alt="People in Tokyo wearing masks during the COVID-19 pandemic" />
+            </div>
+            <p class="story-card__eyebrow">Japan</p>
+            <div class="panel-prose">
+              <h3>COVID-19 and the Return of Bodily Sovereignty</h3>
+              <figure class="story-inline-media">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Moderna_COVID-19_vaccine.jpg/1280px-Moderna_COVID-19_vaccine.jpg" alt="Moderna COVID-19 vaccine vials prepared at Kadena Air Base, Japan" loading="lazy" />
+                <figcaption>COVID note: vaccine rollout returned the essay’s old question of trust to the present.</figcaption>
+              </figure>
+              <p>With all these historical contexts in mind, I now better understood the factors that led up to the confusing COVID response I saw in my travels to Japan. Since the arrival of inoculations in Japan, people recognised its potential in curbing the outbreaks of disease faced by everyone across time. Apart from just its physical form, the idea of vaccines straddles the line between multiple liminal spaces – between disease and health, lifesaving and life threatening, political and apolitical, prophylactic and essential, truth and opinion and much more. As a result, people have imbued them with different meanings across society, acting as a site of genba for issues faced at that time.</p>
+              <h3 id="panel-nationalConclusion">Conclusion: Vaccines as a Genba of Trust, Power, and Autonomy</h3>
+              <figure class="story-inline-media story-inline-media--wide">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Dejima%2C_the_Dutch_Trading_Station_at_Nagasaki_handscroll%2C_about_1800.jpg" alt="Dejima, the Dutch Trading Station at Nagasaki handscroll, about 1800" loading="lazy" />
+                <figcaption>Route note: Dejima remains the narrow gateway through which foreign medical knowledge enters the essay.</figcaption>
+              </figure>
+              <p>Variolation in Japan represented the influence of Traditional Chinese Medicine in Japan. The arrival of vaccinations then represented a period of pluralist thinking in Japanese medicine as Western and Eastern aetiology clashed. Some viewed vaccinations’ “western-ness” either as a transgression to their culture and sovereignty, or as their saviour from its erosion by allowing the country to “modernize” and progress to the same status as Western powers.</p>
+              <p>Vaccinations were also attractive to the government and institutions of power in Japan’s history. Due to the increasing urbanization in Japan, epidemics could ravage the population-dense cities and collapse the industrializing economy of the country. The apolitical, scientific nature of vaccines could also be used to gain goodwill and legitimacy. Vaccines improved the quality of the military, allowing them to confidently invade foreign area with exotic diseases. The government co-option of vaccinations killed early pluralist medical thought by treating western science as the supreme truth, instead of the process to get there, therefore also handing over the authority of truth. In this sense, the “scientization” of everyday life with vaccines could be seen as the extension of government’s power into the an individual level, claiming sovereignty over the individual’s health autonomy.</p>
+              <p>The inevitability of vaccine side effects underscores the genba of the intersection of public and private interests. As preventative medicine, vaccination is never necessary (except for rabies I think). Therefore, mandating its use requires individuals to relinquish autonomy for the public good. However, vaccines heavily rely on trust, as patients must rely on the competence and character of their administrators, and the vaccines’ quality and safety. In this context, the misadventures resulting from the mandate especially affected people’s trust in vaccines that they deemed unsafe and unnecessary. Otherwise, Japanese people have been willing to sacrifice personal autonomy for the public good, leading not only to the high rates of vaccination for some diseases, but the recognition of the disproportionate effects of COVID on their ageing population that drove up their vaccination numbers eventually. Even if masks were not without risk, masking up did not entail the same surrender of sovereignty of one’s health as vaccinations. They are bought and administered at the individual level, while vaccines require a leap of faith to begin to trust.</p>
+              <p>The paradoxical behaviour I witnessed can then be seen as not just a legacy of scepticism of foreign influence, vaccine injuries, or government mistrust, but as a return of Japan&#x27;s long-standing pluralist thinking postwar, even leading to the resurgence of kanpo in Japan. They would not blindly accept information from institutions of power, but exercise their sovereignty in their thoughts and decision-making, and therefore taking back sovereignty of the very essence of science, testing and discovery.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="image-river" aria-label="Image exploration">
+        <figure class="river-panel is-selected">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TOKYO_2020._%2849734964521%29.jpg/1280px-TOKYO_2020._%2849734964521%29.jpg" alt="People in Tokyo wearing masks during the COVID-19 pandemic" />
+        </figure>
+        <figure class="river-panel">
+          <img src="https://iiif.wellcomecollection.org/image/V0011691/full/1000,/0/default.jpg" alt="Edward Jenner among patients in a vaccination satire" />
+        </figure>
+        <figure class="river-panel">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Dutch_mansions_in_Dejima%2C_Nagasaki_%28Nagasaki_Dejima_Rankan_no_zu%29_%28CBL_J_1131%29.jpg/1280px-Dutch_mansions_in_Dejima%2C_Nagasaki_%28Nagasaki_Dejima_Rankan_no_zu%29_%28CBL_J_1131%29.jpg" alt="Dutch mansions in Dejima, Nagasaki" />
+        </figure>
+        <figure class="river-panel">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Ota_Chou_-_Smallpox_Vaccination.jpg" alt="Ota Chou Smallpox Vaccination artwork" />
+        </figure>
+        <figure class="river-panel">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Emperor_Meiji_in_1873.jpg" alt="Emperor Meiji photographed in 1873" />
+        </figure>
+      </section>
+
+      <section class="bibliography-shell" aria-label="Bibliography">
+        <div id="bibliography-content">
+          <h2>Bibliography:</h2>
+          <p>Aldous, Chris. “Transforming Public Health?: A Critical Review of Progress Made against Enteric Diseases during the American-Led Occupation of Japan (1945–52).” Nihon Ishigaku Zasshi 54, no. 1 (March 2008): 3–17. https://pubmed.ncbi.nlm.nih.gov/19048809/.</p>
+          <p>Boylston, Arthur. “The Origins of Inoculation.” Journal of the Royal Society of Medicine 105, no. 7 (July 2012): 309–313.</p>
+          <p>Chikusa, Hideo. “Japanese Supreme Court - Its Institution and Background.” SMU Law Review 52, no. 4 (January 1999): 1719–30.</p>
+          <p>Gordon, Andrew, and Michael R. Reich. “The Puzzle of Vaccine Hesitancy in Japan.” The Journal of Japanese Studies 47, no. 2 (2021): 411–436. https://doi.org/10.1353/jjs.2021.0047.</p>
+          <p>Harari, Reut. “Between Trust and Violence: Medical Encounters under Japanese Military Occupation during the War in China (1937–1945).” Medical History 64, no. 4 (October 2020): 494–515. https://doi.org/10.1017/mdh.2020.44.</p>
+          <p>Jannetta, Ann. “Jennerian Vaccination and the Creation of a National Public Health Agenda in Japan, 1850–1900.” Bulletin of the History of Medicine 83, no. 1 (2009): 125–140. https://doi.org/10.1353/bhm.0.0185.</p>
+          <p>Kawaguchi, Hiroshi. “Faith Healing and Vaccination against Smallpox in Nineteenth-Century Japan.” Chapter. In Environmental History in East Asia: Interdisciplinary Perspectives, 1st ed., 273–95. London, UK: Routledge, Taylor &amp; Francis Group, 2014.</p>
+          <p>Kuroda, Moe, Md Koushik Ahmed, Kaku Kuroda, and Sandra D. Lane. “Understanding COVID-19 Vaccine Hesitancy among the General Population in Japan from Public Health Ethical Perspectives: Findings from a Narrative Review.” Asian Bioethics Review 17, no. 1 (October 24, 2024): 141–65. https://doi.org/10.1007/s41649-024-00310-8.</p>
+          <p>Sims, Richard. “Japanese Political History Since the Meiji Restoration, 1868-2000.” London, UK: Palgrave MacMillan, 2001.</p>
+          <p>Trambaiolo, Daniel. “Vaccination and the Politics of Medical Knowledge in Nineteenth-Century Japan.” Bulletin of the History of Medicine 88, no. 3 (Fall 2014): 354–378. https://doi.org/10.1353/bhm.2014.0040.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="credits">
+      <h2>Credits: All media</h2>
+      <ul>
+        <li>People with surgical masks during the COVID-19 pandemic in Tokyo, Wikimedia Commons.</li>
+        <li>Edward Jenner among patients in the Smallpox and Inoculation, Wellcome Collection, CC BY 4.0.</li>
+        <li>Dutch mansions in Dejima, Nagasaki, Wikimedia Commons.</li>
+        <li>Ota Chou, Smallpox Vaccination, Wikimedia Commons.</li>
+        <li>Mutsuhito, Emperor Meiji, 1873, Wikimedia Commons.</li>
+      </ul>
+    </footer>
+
+    <script type="module" src="./src/main.js?v=calibrated-2d-pins-v2"></script>
+  </body>
+</html>

@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A small collection of interactive history projects."
+    />
+    <title>History Projects</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f4f6f8;
+        --paper-strong: #ffffff;
+        --ink: #211b17;
+        --muted: #59636d;
+        --line: rgba(33, 27, 23, 0.18);
+        --shadow: rgba(21, 31, 40, 0.16);
+        --opera: #9b2f24;
+        --hh3002: #2c6651;
+        --gold: #b4863b;
+        --radius: 8px;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        min-height: 100%;
+        background: var(--paper);
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        background:
+          linear-gradient(120deg, rgba(155, 47, 36, 0.06), transparent 32%),
+          linear-gradient(240deg, rgba(44, 102, 81, 0.08), transparent 34%),
+          var(--paper);
+        color: var(--ink);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+      }
+
+      .site-shell {
+        width: min(1120px, calc(100% - 32px));
+        min-height: 100vh;
+        margin: 0 auto;
+        padding: clamp(28px, 5vw, 64px) 0;
+        display: grid;
+        align-content: center;
+        gap: clamp(28px, 4vw, 48px);
+      }
+
+      .site-header {
+        display: grid;
+        gap: 14px;
+        max-width: 760px;
+      }
+
+      .site-title {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(3rem, 9vw, 7rem);
+        font-weight: 500;
+        line-height: 0.9;
+        letter-spacing: 0;
+      }
+
+      .site-intro {
+        max-width: 58ch;
+        margin: 0;
+        color: var(--muted);
+        font-size: clamp(1rem, 1.8vw, 1.18rem);
+        line-height: 1.65;
+      }
+
+      .project-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: clamp(18px, 3vw, 28px);
+      }
+
+      .project-card {
+        position: relative;
+        min-height: 520px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--paper-strong);
+        box-shadow: 0 24px 60px var(--shadow);
+        text-decoration: none;
+        isolation: isolate;
+      }
+
+      .project-card:focus-visible {
+        outline: 3px solid var(--gold);
+        outline-offset: 5px;
+      }
+
+      .project-image {
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+      }
+
+      .project-image img {
+        height: 100%;
+        object-fit: cover;
+        transition: transform 500ms ease;
+      }
+
+      .project-card::after {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        content: "";
+        background:
+          linear-gradient(
+            180deg,
+            rgba(18, 13, 10, 0.08),
+            rgba(18, 13, 10, 0.2) 42%,
+            rgba(18, 13, 10, 0.88)
+          ),
+          linear-gradient(90deg, rgba(18, 13, 10, 0.22), transparent);
+      }
+
+      .project-card:hover .project-image img {
+        transform: scale(1.035);
+      }
+
+      .project-content {
+        min-height: inherit;
+        padding: clamp(22px, 4vw, 34px);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 20px;
+        color: var(--paper-strong);
+      }
+
+      .project-title {
+        max-width: 10ch;
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(2rem, 4.2vw, 4.5rem);
+        font-weight: 500;
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .project-description {
+        max-width: 34rem;
+        margin: 0;
+        color: rgba(255, 250, 240, 0.86);
+        font-size: 1rem;
+        line-height: 1.55;
+      }
+
+      .project-meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .project-type,
+      .project-action {
+        display: inline-flex;
+        min-height: 40px;
+        align-items: center;
+        border-radius: 999px;
+        font-size: 0.88rem;
+        font-weight: 700;
+        line-height: 1;
+      }
+
+      .project-type {
+        border: 1px solid rgba(255, 250, 240, 0.4);
+        padding: 0 14px;
+        color: rgba(255, 250, 240, 0.78);
+      }
+
+      .project-action {
+        padding: 0 18px;
+        background: var(--paper-strong);
+        color: var(--ink);
+      }
+
+      .project-card--opera .project-action {
+        color: var(--opera);
+      }
+
+      .project-card--hh3002 .project-action {
+        color: var(--hh3002);
+      }
+
+      .site-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 12px;
+        border-top: 1px solid var(--line);
+        padding-top: 18px;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .site-footer p {
+        margin: 0;
+      }
+
+      @media (max-width: 800px) {
+        .site-shell {
+          align-content: start;
+        }
+
+        .project-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .project-card {
+          min-height: 420px;
+        }
+
+        .project-title {
+          max-width: 12ch;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .site-shell {
+          width: min(100% - 24px, 1120px);
+          padding: 24px 0;
+        }
+
+        .project-card {
+          min-height: 370px;
+        }
+
+        .project-content {
+          padding: 20px;
+        }
+
+        .project-description {
+          font-size: 0.95rem;
+        }
+
+        .project-type,
+        .project-action {
+          min-height: 36px;
+          font-size: 0.8rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="site-shell">
+      <header class="site-header">
+        <h1 class="site-title">History Projects</h1>
+        <p class="site-intro">
+          Two interactive essays exploring culture, public health, identity, and
+          the ways historical memory moves through place.
+        </p>
+      </header>
+
+      <section class="project-grid" aria-label="Available projects">
+        <a class="project-card project-card--opera" href="./HH4021/">
+          <picture class="project-image">
+            <source
+              srcset="./HH4021/assets/media.shorthand.com/intro-slide-2-750x422-d41474a2c549.webp"
+              type="image/webp"
+            />
+            <img
+              src="./HH4021/assets/media.shorthand.com/intro-slide-2-750x422-ff21820e63ae.png"
+              alt="Chinese street opera title artwork"
+            />
+          </picture>
+          <div class="project-content">
+            <div>
+              <h2 class="project-title">Chinese Street Opera</h2>
+              <p class="project-description">
+                A Shorthand story on Chinese opera, identity, and cultural
+                change in Singapore.
+              </p>
+            </div>
+            <div class="project-meta">
+              <span class="project-type">HH4021 Final Project</span>
+              <span class="project-action">Open project</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="project-card project-card--hh3002" href="./HH3002/">
+          <picture class="project-image">
+            <img
+              src="./HH3002/3djapan/background.jpeg"
+              alt="Rendered geographic overview of Japan"
+            />
+          </picture>
+          <div class="project-content">
+            <div>
+              <h2 class="project-title">Masks, Mandates, and Modernity</h2>
+              <p class="project-description">
+                An interactive essay on the history behind Japan's vaccine
+                hesitancy.
+              </p>
+            </div>
+            <div class="project-meta">
+              <span class="project-type">HH3002 Final Project</span>
+              <span class="project-action">Open project</span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <footer class="site-footer">
+        <p>Built as a static Cloudflare Pages entry point.</p>
+        <p>Publish directory: project root.</p>
+      </footer>
+    </main>
+  </body>
+</html>

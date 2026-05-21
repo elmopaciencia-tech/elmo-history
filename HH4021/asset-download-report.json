@@ -1,0 +1,23 @@
+{
+  "pages": [
+    {
+      "url": "https://preview.shorthand.com/y8NycyYcsiLD3nRA",
+      "outputFile": "index.html"
+    },
+    {
+      "url": "https://preview.shorthand.com/CgNc1CVdwoC1HDml",
+      "outputFile": "history.html"
+    },
+    {
+      "url": "https://preview.shorthand.com/JbFPgyQDJwX66ooB",
+      "outputFile": "decline.html"
+    },
+    {
+      "url": "https://preview.shorthand.com/ac7OP0isUN7M4fPE",
+      "outputFile": "identity.html"
+    }
+  ],
+  "localizedAssetCount": 308,
+  "failureCount": 0,
+  "failures": []
+}
