@@ -1,0 +1,42 @@
+[
+	{
+		"title": "FruitStand",
+		"tags": "",
+		"body": "The fruit seller greets Hana with an HUGE smile.\n[[1  KNOCK OVER THE STAND!!|PushStand]]\n[[2  Steal a fruit? |TakeFruit]]\n[[3  Leave the stand alone|LeaveStand]]\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PushStand",
+		"tags": "",
+		"body": "<<knock_over>>\nHANA KNOCKS OVER THE STAND! Fruit scatters across the pavement. \nThe seller calmly cleans it up.\nSELLER: Oops! Let me clean up this mess! Enjoy your day!\n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TakeFruit",
+		"tags": "",
+		"body": "<<take_fruit>>\nHana pockets a piece of fruit without paying. \nSELLER: Please, take it! I'm happy to share.\n",
+		"position": {
+			"x": 680,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "LeaveStand",
+		"tags": "",
+		"body": "<<stop>>",
+		"position": {
+			"x": 1000,
+			"y": 40
+		},
+		"colorID": 0
+	}
+]

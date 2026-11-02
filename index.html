@@ -19,6 +19,7 @@
         --shadow: rgba(21, 31, 40, 0.16);
         --opera: #9b2f24;
         --hh3002: #2c6651;
+        --bliss: #345a80;
         --gold: #b4863b;
         --radius: 8px;
         font-family:
@@ -77,14 +78,6 @@
         font-weight: 500;
         line-height: 0.9;
         letter-spacing: 0;
-      }
-
-      .site-intro {
-        max-width: 58ch;
-        margin: 0;
-        color: var(--muted);
-        font-size: clamp(1rem, 1.8vw, 1.18rem);
-        line-height: 1.65;
       }
 
       .project-grid {
@@ -207,19 +200,17 @@
         color: var(--hh3002);
       }
 
-      .site-footer {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 12px;
-        border-top: 1px solid var(--line);
-        padding-top: 18px;
-        color: var(--muted);
-        font-size: 0.9rem;
+      .project-card--bliss {
+        grid-column: 1 / -1;
+        min-height: 420px;
       }
 
-      .site-footer p {
-        margin: 0;
+      .project-card--bliss .project-action {
+        color: var(--bliss);
+      }
+
+      .project-card--bliss .project-image img {
+        object-position: 20% center;
       }
 
       @media (max-width: 800px) {
@@ -281,10 +272,6 @@
     <main class="site-shell">
       <header class="site-header">
         <h1 class="site-title">History Projects</h1>
-        <p class="site-intro">
-          Two interactive essays exploring culture, public health, identity, and
-          the ways historical memory moves through place.
-        </p>
       </header>
 
       <section class="project-grid" aria-label="Available projects">
@@ -317,7 +304,7 @@
         <a class="project-card project-card--hh3002" href="./HH3002/">
           <picture class="project-image">
             <img
-              src="./HH3002/3djapan/background.jpeg"
+              src="./assets/hh3002-preview.webp"
               alt="Rendered geographic overview of Japan"
             />
           </picture>
@@ -335,12 +322,30 @@
             </div>
           </div>
         </a>
+
+        <a class="project-card project-card--bliss" href="./BlissGame/HTML5/index.html">
+          <picture class="project-image">
+            <img
+              src="./assets/blissgame-preview.webp"
+              alt="Pixel-art news broadcast from BlissGame"
+              loading="lazy"
+            />
+          </picture>
+          <div class="project-content">
+            <div>
+              <h2 class="project-title">BlissGame</h2>
+              <p class="project-description">
+                A pixel-art narrative game set in a city facing an epidemic.
+              </p>
+            </div>
+            <div class="project-meta">
+              <span class="project-type">Interactive Game</span>
+              <span class="project-action">Play game</span>
+            </div>
+          </div>
+        </a>
       </section>
 
-      <footer class="site-footer">
-        <p>Built as a static Cloudflare Pages entry point.</p>
-        <p>Publish directory: project root.</p>
-      </footer>
     </main>
   </body>
 </html>

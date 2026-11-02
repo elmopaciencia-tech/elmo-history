@@ -1,0 +1,32 @@
+[
+	{
+		"title": "FourPoints",
+		"tags": "",
+		"body": "Gabriel: Same plan. Plant charges at four points. I'll keep watch outside.\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NotYet",
+		"tags": "",
+		"body": "Gabriel: Not yet. Secure all four points.\n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StayClose",
+		"tags": "",
+		"body": "Gabriel: OUT NOW LET'S GO GO GO! Stay close!\n",
+		"position": {
+			"x": 680,
+			"y": 40
+		},
+		"colorID": 0
+	}
+]

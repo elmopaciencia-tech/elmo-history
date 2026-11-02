@@ -1,0 +1,42 @@
+[
+	{
+		"title": "FirstAwakening",
+		"tags": "",
+		"body": "Mysterious person: Oh, good. You're awake. You've been in and out of consciousness.\nHana: Where am I? Why am I here?\nMysterious person: Don't worry Hana, you're just back at the bunker. \nMysterious person: You're pretty banged up, take a rest. Did you run into one of those \"Health Officers\" again?\nHana: I can barely remember anything. How long have I been like this?\nMysterious person: We found you slumped at our entrance this morning... We've been worried sick since you took off last night.\nHana: What am I doing here? Who are you people?\nGabriel: Oh no, your condition worse than we thought. Rest up Hana. The outside world may not be how you remember it to be.\nHana: And how do you know my name?!\nGabriel: Hana, it's Gabriel! You rescued me from Health officers and brought me here remember? \nHana: I think it's starting to come back to me... What do you mean... What happened to everyone?\nGabriel: People had been starting to act weird since last year... \nGabriel: At first it was great, crime rates plummeted, I stopped getting cut off in traffic.\nGabriel: But I started to notice everyone around me just stopped feeling at all. They just seemed to be happy all the time.\nHana: That doesn't seem so bad...\nGabriel: I felt so alone. I feel like I had to perform in front of everyone.\nGabriel: When I found out it was that AI that caused all of this, I was blind with rage and planned to attack the DecaAI HQ. \nGabriel: Of course the plan went sideways, then you brought me here...\nHana: I can't believe it... This cannot be true.\nGabriel: The authorities call it a utopia!! Nobody can resist! Or get angry at all for that matter.\nGabriel: The unvaccinated are deemed dangerous. Anyone showing negative emotions can be targeted for what the government calls \"sanitation\".\nHana: And everyone just accepts that!!? I don't know if I believe you.\nGabriel: Then go see the city for yourself! The library has public news terminals. See what the government is telling everyone.\n<<explore_city>>\nHana: I'll look for myself. I need to know what is happening out there.\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "BackFromLibrary",
+		"tags": "",
+		"body": "<<see_gabriel>>\nHana: Oh my god.. I...\nGabriel: I don't want to say I told you so\nHana: The news... It called anger... a symptom... Everything is so messed up...  \nHana: They all gathered around me... smiling like a bunch of FREAKS. I had to run back here...\n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Briefing",
+		"tags": "",
+		"body": "Hana: What now? We have to do something!\nGabriel: We're about to conduct a mission now. We've been eyeing those datacentres right outside of town... \nGabriel: They enable DecaAI's surveillance for the Federal Department of Sanitation. \nGabriel: But we must be careful, there are Health Science Officers guarding its datacentres.\nGabriel: First we hit the peripheral centres: East, then West. \nGabriel: Then we hit the main datacentres last. Alpha and Omega. \nGabriel: From our intel, Omega holds the prompt terminal. If we make it there, we may be able to get Deca to reverse the inhibitor.\nGabriel: Four of us go to East tonight. We have to distract the guards, and then destroy the infrastructure.\nGabriel: Take these charges. There should be 4 server points to hit. We'll detonate when the coast is clear.\nHana: Are you sure about this?\nGabriel: Only if you are.\n<<go_east>>\nHana: I'm ready.\n",
+		"position": {
+			"x": 680,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "SecondAwakening",
+		"tags": "",
+		"body": "Hana: How did I get here?\nGabriel: Are you okay? You've been out for hours. The bomb must've detonated early.\nHana: I'm... feeling... fine... I want to continue\nGabriel: I hope you're sure about this...\nGabriel: But we are running out of time. Health Science Officers are closing in on us. \nGabriel: We are the only ones who survived the last mission.\nHana: Oh no... \n<<alpha_next>>\nGabriel: We can't let their sacrifice go to waste. Let's go now, Alpha is next.\n",
+		"position": {
+			"x": 1000,
+			"y": 40
+		},
+		"colorID": 0
+	}
+]

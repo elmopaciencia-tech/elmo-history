@@ -1,0 +1,62 @@
+[
+	{
+		"title": "WaitForSignal",
+		"tags": "",
+		"body": "Gabriel: Both of you... I want you to plant charges across the bridge to draw the guards out. Wait for my signal.\n<<signal>>\n[Gabriel signals]\nLet's roll.\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Crash",
+		"tags": "",
+		"body": "Explosions reverberate across the bridge. Officers rush to investigate.\n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "GoInside",
+		"tags": "",
+		"body": "Gabriel: NOW! Follow the map to the main chamber!\n",
+		"position": {
+			"x": 680,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EveryoneClear",
+		"tags": "",
+		"body": "Gabriel: East is behind us, but job's not done. \n",
+		"position": {
+			"x": 1000,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EastFalls",
+		"tags": "",
+		"body": "DECA-East falls. The four head toward West.\n",
+		"position": {
+			"x": 40,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ToWest",
+		"tags": "",
+		"body": "Gabriel: Straight to West. Same plan. \n[The four disappear into the night and head to DECA-WEST]\n",
+		"position": {
+			"x": 360,
+			"y": 300
+		},
+		"colorID": 0
+	}
+]

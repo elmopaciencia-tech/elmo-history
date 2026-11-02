@@ -1,0 +1,82 @@
+[
+	{
+		"title": "WaitForSignal",
+		"tags": "",
+		"body": "Gabriel: Same plan. Draw the guards away, we go in, and follow the map to the server room.\nHana: Same map huh...\nGabriel: Yep I guess it's more efficient this way.\n<<signal>>\n[Gabriel signals]\nThe plan is set into motion.\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Crash",
+		"tags": "",
+		"body": "Explosions reverberate across the bridge. Officers rush to investigate.\n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "GoInside",
+		"tags": "",
+		"body": "Gabriel: LET'S GO! NOW!\n",
+		"position": {
+			"x": 680,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Race",
+		"tags": "",
+		"body": "Hana coughs, unable to catch up to Gabriel\n",
+		"position": {
+			"x": 1000,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Erupt",
+		"tags": "",
+		"body": "Explosions erupt before Hana is clear.\n",
+		"position": {
+			"x": 40,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Still",
+		"tags": "",
+		"body": "Hana was unable to escape. Hana blacks out...\n",
+		"position": {
+			"x": 360,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Later",
+		"tags": "",
+		"body": "Gabriel: What happened to you... \n",
+		"position": {
+			"x": 680,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Carry",
+		"tags": "",
+		"body": "Gabriel carries the downed Hana back to the bunker...\n",
+		"position": {
+			"x": 1000,
+			"y": 300
+		},
+		"colorID": 0
+	}
+]

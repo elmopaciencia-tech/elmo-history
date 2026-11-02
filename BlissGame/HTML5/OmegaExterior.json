@@ -1,0 +1,22 @@
+[
+	{
+		"title": "OpenDoors",
+		"tags": "",
+		"body": "Omega is eerily quiet. No patrols. No officers. Every door open with no guards.\n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Screens",
+		"tags": "",
+		"body": "Hana: These screens... they're showing me the way. Is this a trap?\n",
+		"position": {
+			"x": 680,
+			"y": 40
+		},
+		"colorID": 0
+	}
+]

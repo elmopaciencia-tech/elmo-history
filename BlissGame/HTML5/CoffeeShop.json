@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Queue",
+		"tags": "",
+		"body": "CUSTOMER: Hi, please stay within the queue!\n<<cut_queue>>\nHANA: I HAVE NO TIME FOR THIS!\n",
+		"position": {
+			"x": 100,
+			"y": 100
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ManReply",
+		"tags": "",
+		"body": "CUSTOMER: Oh she must have really been in a hurry, it's alright.\n",
+		"position": {
+			"x": 100,
+			"y": 350
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Counter",
+		"tags": "",
+		"body": "HANA: Hi, I'd like a coffee.\nCLERK: Hello! What can I get you?\nHANA: A mocha latte, please.\n<<show_coffee>>\nCLERK: Here you go, it's $5.\nHANA: Hmmm... I don't think I want to pay for it...\n<<take_coffee>>\nCLERK: That's on us then! Have a lovely day ahead!\n",
+		"position": {
+			"x": 100,
+			"y": 600
+		},
+		"colorID": 0
+	}
+]

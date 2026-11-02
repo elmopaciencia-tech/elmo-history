@@ -1,0 +1,92 @@
+[
+	{
+		"title": "LeftPainting",
+		"tags": "",
+		"body": "What a lovely painting!\n[[1  Mess with the painting?|TiltLeft]]\n[[2  Steal it!|TakeLeft]]\n[[3  Leave the painting alone|LeavePainting]]\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CentrePainting",
+		"tags": "",
+		"body": "What a lovely painting!\n[[1  Mess with the painting?|TiltCentre]]\n[[2  Steal it!|TakeCentre]]\n[[3  Leave the painting alone|LeavePainting]]\n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TiltLeft",
+		"tags": "",
+		"body": "<<tilt_left>>\nThe painting is crooked.\nATTENDANT: Please be gentle with the display. Thank you!\n",
+		"position": {
+			"x": 680,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TiltCentre",
+		"tags": "",
+		"body": "<<tilt_centre>>\nThe painting is crooked. \nATTENDANT: Please be gentle with the display. Thank you!\n",
+		"position": {
+			"x": 998,
+			"y": 39
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TakeLeft",
+		"tags": "",
+		"body": "<<take_left>>\nThis painting is now yours!\nATTENDANT: No problem, just return it when you can!\n",
+		"position": {
+			"x": 40,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TakeCentre",
+		"tags": "",
+		"body": "<<take_centre>>\nThis painting is now yours!\nATTENDANT: No problem, just return it when you can!\n",
+		"position": {
+			"x": 360,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "LeftEmpty",
+		"tags": "",
+		"body": "An empty frame remains...\nATTENDANT: We hope you enjoy the painting as much as we did. Please return it when you're done with it!\n",
+		"position": {
+			"x": 680,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CentreEmpty",
+		"tags": "",
+		"body": "An empty frame remains...\nATTENDANT: We hope you enjoy the painting as much as we did. Please return it when you're done with it!\n",
+		"position": {
+			"x": 1000,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "LeavePainting",
+		"tags": "",
+		"body": "<<stop>>",
+		"position": {
+			"x": 40,
+			"y": 560
+		},
+		"colorID": 0
+	}
+]

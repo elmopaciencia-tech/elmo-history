@@ -1,0 +1,12 @@
+[
+	{
+		"title": "Opening",
+		"tags": "",
+		"body": "Hana: Enough of this. [She turns off the TV, her mask still on.]\nKNOCK KNOCK KNOCK!!! [Officers Knock at Hana's Door]\n\n<<officers_enter>>\n\nHana: Government officers? What is this about? \nGovernment officer: Hello Hana. We are here about the vaccination mandate. Please comply.\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	}
+]

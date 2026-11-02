@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Recording",
+		"tags": "",
+		"body": "The people escaping weren't officers, but her friends. Hana turns and fires at them.\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Denial",
+		"tags": "",
+		"body": "Hana: No. This didn't happen. I SWEAR I DIDN'T DO ANYTHING LIKE THIS.\nHana: Those weren't... they couldn't have been... \n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	}
+]

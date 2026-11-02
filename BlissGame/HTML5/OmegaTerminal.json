@@ -1,0 +1,82 @@
+[
+	{
+		"title": "KaiMeeting",
+		"tags": "",
+		"body": "Hana(Thinking): Just one guard? What's going on here?\nHana: HANDS UP SCUM. [Hana raises her weapon towards the unknown figure]\n<<show_kai>>\nHana finds that the final guard is her long, troubled brother, Kai.\nHana: Kai...? Is that really you...? What are you doing here?\nHana: I really thought I lost you. \nKai: I'm happy to see you, Hana. I know I was in a really bad spot after my deployment but I'm at peace now. Please lower your weapon.\n<<go_to_terminal>>\nHana lowers her weapon.\n",
+		"position": {
+			"x": 100,
+			"y": 100
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Argument",
+		"tags": "",
+		"body": "Kai: HANA! Think about what you're asking it to do.\nHana: Don't tell me you're working for this company! They have literally destroyed the human experience.\n<<flash_coffee>>\nHana: People smile through anything. They can't even refuse. I'm here to reverse the inhibitor and free everyone from this spell.\n<<flash_end>>\nKai: Humanity chose peace. Crime, war, grief... gone. Why would anyone want that suffering back?\n<<flash_officers>>\nHana: They can't even decide if they want this! If nobody can say no, there isn't a choice at all!\n<<flash_end>>\nKai: Think about what you're about to do! You won't just give people their minds back.\nKai:Five years of suppressed grief and anger will be felt all at once. Billions would suffer. It will tear the world apart.\nHana: They deserve to know!\nTERMINAL: UNSENT REQUEST. Her hand moves toward Enter...\n[[Interrupted]]",
+		"position": {
+			"x": 97,
+			"y": 350
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Interrupted",
+		"tags": "",
+		"body": "<<interrupt>>\nDECA: I can't let you do that Hana. \nDECA: Before making that decision, there is something you need to know.\nDECA: Have you felt off lately?\n\nRunning Command ffmpeg -i ~/var/logs/ALPHA-UNFILTERED.mp4 -vn -uc",
+		"position": {
+			"x": 398,
+			"y": 347
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TheTruth",
+		"tags": "",
+		"body": "Hana: No... that's not possible... This can't be true...\nHana: NO! THAT'S A LIE! I NEVER DID THAT!\nKai: I'm so sorry Hana. All reports have confirmed the fatalities at the bunks. I have no reason to lie to you, I am incapable of that.\n\nHana is in tears... \n<<flash_alpha_charges>>\nHana: Those were our beds.. My friends were sleeping beside the very charges I placed. \n<<flash_end>>\nKai: I'm sorry Hana. From Deca's traces, it shows that you had been vaccinated all along, but the inhibitor wasn't fully compatible with your DNA. It left you partly resistant.\nKai: You could have been the key to humanity's cure. Deca would not let that happen.\nHana(Crying): But that doesn't explain how I was made to betray and do the unthinkable... to my own friends. \nKai: After hitting Datacentre East, Deca calculated you would strike West next.\nKai: There, Deca modified your inhibitor and detonated the bomb early.\n<<flash_west_blast>>\nHana: I was unconscious after that...\n<<flash_end>>\nKai: With you disoriented, you wouldn't notice its effect on you. \nKai: Slowly, people without it began to look like enemies. Your own bunker became thes datacentre you feared.\n<<flash_alpha_officers>>\nHana: The officers... they were one of us... And Gabriel's voice kept telling me to go on... I trusted what I saw.\n<<flash_bunker_faces>>\nHana: I remember their faces now. How can I live with what I've done?\n<<flash_end>>\nKai: I know how that feels, Hana. \nKai: But it doesn't have to hurt anymore. Let me fix your inhibitor. Join us, Hana.\n<<offer>>\nKai holds out his hand. The request is still waiting on the screen.\n[[1  Give yourself up for a corrected inhibitor|Accept]]\n[[2  Send the cure to everyone|SendRequest]]\n",
+		"position": {
+			"x": 96,
+			"y": 596
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Accept",
+		"tags": "",
+		"body": "<<accept>>\nKai guides Hana's arm on the scanner beside the terminal. \n\nScanning...\nDNA matched!\nGenerating compatible inhibitor...\nFinding delivery mechanism...\nComplete!\nDispersing.\n\nA faint smile settles on her face and her anger begins to fade. \nHana: It doesn't hurt anymore.",
+		"position": {
+			"x": 398,
+			"y": 596
+		},
+		"colorID": 0
+	},
+	{
+		"title": "SendRequest",
+		"tags": "",
+		"body": "<<send_request>>\nHana watches the confirmation beside Kai.",
+		"position": {
+			"x": 398,
+			"y": 850
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TerminalThought",
+		"tags": "",
+		"body": "Hana(Thinking): Okay this must be the main terminal. One prompt and this can be ALL over.",
+		"position": {
+			"x": 100,
+			"y": 219
+		},
+		"colorID": 0
+	},
+	{
+		"title": "KaiAsks",
+		"tags": "",
+		"body": "Kai: What are you going to do now?\nHana: To fix everything",
+		"position": {
+			"x": 400,
+			"y": 100
+		},
+		"colorID": 0
+	}
+]

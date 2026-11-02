@@ -1,0 +1,72 @@
+[
+	{
+		"title": "GabrielPlan",
+		"tags": "",
+		"body": "Gabriel: Just us now. Here's the map, I'll draw the guards' attention.\nHana: Ok... Keep yourself safe out there. I can't do this alone.\nGabriel: And I can't fail.\n<<distraction>>\nGabriel sprints and plants the charges. The officers rush towards the explosion.\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EnterAlone",
+		"tags": "",
+		"body": "Gabriel: Now. I'll meet you outside. Hana has a clear path inside. She enters Alpha alone.\n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NoAnswer",
+		"tags": "",
+		"body": "Hana: Gabriel!!!! Where are you? \n[Gabriel doesnt answer]\n<<remote_signal>>\nGabriel[fuzzy]: All Clear. Detonate now. Don't wait up for me. Meet at Omega.\n",
+		"position": {
+			"x": 680,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "AlphaFalls",
+		"tags": "",
+		"body": "Alpha tears apart.\nHana: What??? Did I just see our...? \nHana: Just nerves...\n<<officers_out>>\nHealth Officers stumble out of the entrance.\n",
+		"position": {
+			"x": 1000,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "HanaFires",
+		"tags": "",
+		"body": "Hana turns toward them and fires twice.",
+		"position": {
+			"x": 40,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "OfficersFall",
+		"tags": "",
+		"body": "The officers fall. Hana lowers her weapon.",
+		"position": {
+			"x": 360,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "OmegaNext",
+		"tags": "",
+		"body": "Omega is next. Walk right to leave.",
+		"position": {
+			"x": 680,
+			"y": 300
+		},
+		"colorID": 0
+	}
+]

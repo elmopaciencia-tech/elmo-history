@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Readers",
+		"tags": "",
+		"body": "The readers sit in perfect silence.\n[[1  SCREAM IN THE LIBRARY|Shout]]\n[[2  Speak normally|SpeakNormally]]\n[[3  Leave them alone|LeaveReaders]]\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Shout",
+		"tags": "",
+		"body": "HANA: HELLLOOOOOOOOOOOOOO!!!!!! \nLIBRARIAN: A little quieter, please. Thank you, and enjoy your visit!\n",
+		"position": {
+			"x": 360,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "SpeakNormally",
+		"tags": "",
+		"body": "HANA: Where is the computer terminal? \nLIBRARIAN: It's just at the end of the hall. Have a lovely day.\n",
+		"position": {
+			"x": 680,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "LeaveReaders",
+		"tags": "",
+		"body": "<<stop>>",
+		"position": {
+			"x": 1000,
+			"y": 40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Crowd",
+		"tags": "",
+		"body": "READER: Are you alright?\nHANA: I need to get out...\nREADER: Please, go ahead.\n",
+		"position": {
+			"x": 40,
+			"y": 300
+		},
+		"colorID": 0
+	}
+]

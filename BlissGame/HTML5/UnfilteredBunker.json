@@ -1,0 +1,12 @@
+[
+	{
+		"title": "BunkerRecord",
+		"tags": "",
+		"body": "Hana places charges on the very beds of her friends.\n<<remaining_points>>\nHana moves through methodically, escaping before the bunker's destruction.\n<<hana_leaves>>\nThe fate of her friends are sealed.\n<<explode>>\nThe charges detonate and the bunker goes up in flames.\n",
+		"position": {
+			"x": 40,
+			"y": 40
+		},
+		"colorID": 0
+	}
+]
