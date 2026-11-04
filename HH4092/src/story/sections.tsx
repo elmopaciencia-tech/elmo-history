@@ -692,20 +692,12 @@ export function Activity(_: Ctx) {
 }
 
 export function Bibliography() {
-  const groups: [string, string[]][] = [['Primary sources and data', ['primary', 'data', 'map']], ['Secondary sources', ['secondary']]];
   return (
     <section id="bibliography" className="biblio paper" data-beat={beat(ix('bibliography'))} data-chapter="four">
-      <div className="section-head"><Kicker>Bibliography</Kicker><h2>Sources</h2>
-        <p className="aside-note">Chicago notes-bibliography. Only sources cited in this presentation.</p>
-      </div>
+      <div className="section-head"><h2>Bibliography</h2></div>
       <div className="bib-cols">
-        {groups.map(([h, gs]) => (
-          <div key={h}>
-            <h3 className="u-head">{h}</h3>
-            {sources.filter(s => gs.includes(s.group) && citedIds.has(s.id)).sort((a, b) => a.bib.localeCompare(b.bib)).map(s => (
-              <p key={s.id} className="bib-entry">{rich(s.bib)}</p>
-            ))}
-          </div>
+        {sources.filter(s => citedIds.has(s.id)).sort((a, b) => a.bib.localeCompare(b.bib)).map(s => (
+          <p key={s.id} className="bib-entry">{rich(s.bib)}</p>
         ))}
       </div>
     </section>

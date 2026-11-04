@@ -561,8 +561,8 @@ li.ss-pt:last-of-type span { text-align: right; }
 
 /* ── Bibliography and footer ── */
 .biblio { padding: 14vh var(--gutter) 10vh; }
-.bib-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; max-width: 1200px; margin: 0 auto; }
-.bib-entry { font-family: var(--font-display); font-size: 14.5px; line-height: 1.5; padding-left: 2em; text-indent: -2em; margin: 0 0 10px; overflow-wrap: anywhere; }
+.bib-cols { columns: 2; column-gap: 56px; max-width: 1200px; margin: 0 auto; }
+.bib-entry { font-family: var(--font-display); font-size: 14.5px; line-height: 1.5; padding-left: 2em; text-indent: -2em; margin: 0 0 10px; overflow-wrap: anywhere; break-inside: avoid; }
 .bib-cols > div { min-width: 0; }
 .bib-entry .status { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; color: var(--lagoon-700); border: 1px solid currentColor; border-radius: 3px; padding: 0 4px; text-indent: 0; display: inline-block; }
 .bib-entry .s-bibliography-only { color: var(--rust-500); }
@@ -586,7 +586,8 @@ li.ss-pt:last-of-type span { text-align: right; }
   .tl-rail { display: none; }
   .tl-plate { padding: 18vh 6vw 10vh; }
   .tl-years { left: 4vw; right: 4vw; }
-  .collage, .card-row, .motive-grid, .media-text, .fl-in, .assess-cols, .bib-cols, .act-grid, .hrow { grid-template-columns: 1fr; }
+  .collage, .card-row, .motive-grid, .media-text, .fl-in, .assess-cols, .act-grid, .hrow { grid-template-columns: 1fr; }
+  .bib-cols { columns: 1; }
   .tilt-r { margin: -8% 0 0 6%; }
   .before-row ol { grid-template-columns: 1fr; }
   .before-row ol::before { display: none; }
