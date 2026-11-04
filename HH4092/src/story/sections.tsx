@@ -190,9 +190,8 @@ export function Lineage() {
           </ol>
         </div>
         {s.footer && <p className="aside-note">{s.footer}</p>}
-        <span className="u-head">Family background</span>
         <Reveal className="shared">
-          <b>{s.shared.h} · {s.shared.name}</b>
+          <b>{s.shared.name}</b>
           <p>{s.shared.t}</p>
           <p className="card-cites"><Cites refs={s.shared.refs} /></p>
         </Reveal>
@@ -205,10 +204,10 @@ export function Lineage() {
               alt={`Photograph of ${p.name}`} width={i === 0 ? 688 : 768} height="1024" loading="lazy" decoding="async" />
             <div className="band odum-caption">
               <h3>{p.name}</h3>
+              <p className="odum-photo-credit">{i === 0
+                ? <a href="https://www.georgiaencyclopedia.org/articles/geography-environment/eugene-odum-1913-2002/" target="_blank" rel="noreferrer">University of Georgia Photographic Services / New Georgia Encyclopedia</a>
+                : <a href="https://floridaspringsinstitute.org/howard-t-odum/" target="_blank" rel="noreferrer">Courtesy of Robert Knight / Florida Springs Institute</a>}</p>
             </div>
-            <p className="odum-photo-credit">{i === 0
-              ? <a href="https://www.georgiaencyclopedia.org/articles/geography-environment/eugene-odum-1913-2002/" target="_blank" rel="noreferrer">University of Georgia Photographic Services / New Georgia Encyclopedia</a>
-              : <a href="https://floridaspringsinstitute.org/howard-t-odum/" target="_blank" rel="noreferrer">Courtesy of Robert Knight / Florida Springs Institute</a>}</p>
             <div className="route-body">
               <span className="u-head">Background</span>
               <ol className="route-steps">{p.route.map((r: string) => <li key={r}>{r}</li>)}</ol>
@@ -223,7 +222,6 @@ export function Lineage() {
       </div>
       <Reveal className="merge"><svg className="merge-arrows" viewBox="0 0 120 44" aria-hidden="true"><path d="M8 4 L56 38 M112 4 L64 38 M48 38 L58 40 L54 30 M72 38 L62 40 L66 30" /></svg>
         <p>{s.merge}</p><p className="card-cites"><Cites refs={s.mergeRefs} /></p></Reveal>
-      <Reveal as="blockquote" className="pull small"><span className="tag">Who led?</span>{s.contested}</Reveal>
       <Notes refs={s.refs} />
     </section>
   );

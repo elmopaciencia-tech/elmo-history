@@ -298,7 +298,6 @@
           "225"
         ]
       ],
-      "contested": "Who led the study is disputed. Tom is first author, and Taylor and Martin credit him with the method and the energy ideas; he also wrote the energy chapter of Fundamentals (1953). Golley and Eugene’s biographers present Eugene as the main organizer. The paper cites earlier work by both.",
       "footer": null,
       "refs": [
         [
@@ -342,14 +341,13 @@
           ""
         ]
       ],
-      "notes": "Two and a half minutes. Top row left to right: what ecology already had (Tansley, Lindeman), then the Yale line (Hutchinson’s balanced budgets, Tom’s “self-balancing” strontium). Point out that the self-balancing idea is in Tom’s work in 1950, before any reef. Then the father, and say the course link aloud: ecology and sociology in one family. Then the two brothers: Eugene the ambition, the textbook and the patron; Tom the flow method and the efficiency theory. Land the merge line. Who led? Leave it open. Lotka and Technocracy now live in the Taylor section.",
+      "notes": "Two and a half minutes. Top row left to right: what ecology already had (Tansley, Lindeman), then the Yale line (Hutchinson’s balanced budgets, Tom’s “self-balancing” strontium). Point out that the self-balancing idea is in Tom’s work in 1950, before any reef. Then the father, and say the course link aloud: ecology and sociology in one family. Then the two brothers: Eugene the ambition, the textbook and the patron; Tom the flow method and the efficiency theory. Land the merge line. Lotka and Technocracy now live in the Taylor section.",
       "cues": [
         "Top row: Tansley → Lindeman → Hutchinson → Tom 1950",
         "Self-balancing before the reef",
         "Father: say the course link",
         "Eugene: ambition, textbook, patron",
-        "Tom: method, theory",
-        "Who led? leave open"
+        "Tom: method, theory"
       ],
       "beforeHead": "Earlier ideas the study drew on, 1935–1950"
     },
@@ -393,7 +391,7 @@
         "Course link: state as patron"
       ],
       "pitch": {
-        "h": "The grant proposal and the published paper use the same words",
+        "h": "The AEC’s impact on the Odums’ papers",
         "items": [
           {
             "label": "AEC memo · 22 Sept 1952",

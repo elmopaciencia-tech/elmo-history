@@ -338,7 +338,7 @@ li.ss-pt:last-of-type span { text-align: right; }
 .band-1 { background: linear-gradient(100deg, #0f2a3d 0%, #126b67 60%, #22a99d 100%); }
 .odum-portrait { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 20%; }
 .route .odum-caption { background: var(--ink-850); min-height: 0; padding: 24px 32px; }
-.odum-photo-credit { margin: 0; padding: 10px 16px; font-family: var(--font-sans); font-size: 11px; line-height: 1.5; color: var(--paper-muted); }
+.odum-photo-credit { margin: 10px 0 0; font-family: var(--font-sans); font-size: 11px; line-height: 1.5; color: #fff6ea; }
 .odum-photo-credit a { text-decoration: underline; text-underline-offset: 3px; }
 .band-k { opacity: .85; }
 .band h3 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2rem, 3.6vw, 3rem); line-height: 1.05; margin: 10px 0 0; letter-spacing: -.01em; }
