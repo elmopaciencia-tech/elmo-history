@@ -165,7 +165,6 @@ export function Story() {
         <MapStory {...ctx} />
 
         <ChapterTitle id="ch-two" title="The 1955 paper" slide={ix('method')}
-          lead="Odum and Odum, “Trophic Structure and Productivity of a Windward Coral Reef Community on Eniwetok Atoll,” Ecological Monographs, July 1955. Methods, findings, conclusions and impact."
           img={imagery.japtanWide.src} credit="Japtan, Enewetak · Esri World Imagery, Vantor WorldView-3, 4 Jan 2026" />
         <ReefStory {...ctx} />
         <CoralStory {...ctx} />
