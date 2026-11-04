@@ -276,24 +276,31 @@ export function ReefStory({reduced, openReader}: Ctx) {
 export function CoralStory({reduced}: Ctx) {
   const s = S('findings');
   const n = ix('findings');
+  const ref = useRef<HTMLElement>(null);
+  const near = useNear(ref);
   return (
     <>
-      <Scrollmation className="coral-sm ink" side="left" id="findings" chapter="two"
-        media={(active, near) => (
-          <>
-            <Scene near={near} load={loadCoral} step={active} reduced={reduced} className="coral-vp" label="3D coral head, Porites lobata, with a cut-away interior"
-              fallback={<Poster slideId="findings" step={active} fallback={<CoralFallback step={active} />} />} />
-            <p className="media-credit">Specimen: <i>Porites lobata</i>, USNM 646, Smithsonian NMNH 3D scan. A modern museum specimen, not from Japtan. Interior layers are a labelled schematic; band depths are illustrative.</p>
-          </>
-        )}
-        cards={s.stops!.map((st, i) => ({key: st.id, beat: beat(n, i), node: <>
-          {i === 0 && <><Kicker>{s.kicker}</Kicker><h2 className="card-title">{s.title}</h2></>}
-          <span className="card-k">{String(i + 1).padStart(2, '0')} · {st.label}</span>
-          <p>{st.caption}</p>
-          <p className="card-cites">{st.refs.map(r => <Cite key={r.join()} r={r} />)}</p>
-        </>}))}
-      />
-      <section className="findings-list ink" data-beat={beat(n, 3)} data-chapter="two">
+      <section ref={ref} id="findings" className="coral-static ink" data-beat={beat(n)} data-chapter="two">
+        <div className="cs-in">
+          <div className="cs-text">
+            <Reveal><Kicker>{s.kicker}</Kicker><h2 className="cs-title">{s.title}</h2></Reveal>
+            {s.stops!.map((st, i) => (
+              <Reveal as="article" key={st.id} className="cs-item" delay={i * 80}>
+                <span className="card-k">{String(i + 1).padStart(2, '0')} · {st.label}</span>
+                <p>{st.caption} {st.refs.map(r => <Cite key={r.join()} r={r} />)}</p>
+              </Reveal>
+            ))}
+          </div>
+          <figure className="cs-media">
+            <div className="cs-vp">
+              <Scene near={near} load={loadCoral} step={0} reduced={reduced} className="coral-vp" label="3D coral head, Porites lobata, turning slowly"
+                fallback={<Poster slideId="findings" step={0} fallback={<CoralFallback step={0} />} />} />
+            </div>
+            <figcaption className="media-credit">Specimen: <i>Porites lobata</i>, USNM 646, Smithsonian NMNH 3D scan. A modern museum specimen, not from Japtan.</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section className="findings-list ink" data-beat={beat(n, 1)} data-chapter="two">
         <div className="fl-in">
           <h2 className="fl-title">What they found</h2>
           {s.findings.map((f: any, i: number) => (

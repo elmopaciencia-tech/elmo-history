@@ -715,7 +715,7 @@
         {
           "id": "head",
           "label": "Coral head",
-          "caption": "Porites lobata, the coral the Odums found across most of the reef. It looks like an animal, but most of its living tissue turned out to be plant.",
+          "caption": "The Odums found Porites lobata across most of the reef. Corals are classed as animals, but the Odums found that most of the living tissue in this coral was plant.",
           "refs": [
             [
               "odum1957",
@@ -726,7 +726,7 @@
         {
           "id": "cut",
           "label": "Cross-section",
-          "caption": "Inside the skeleton are bands of green algae. The AEC called this the “first study to determine quantitatively the amount of algae present in different species of corals.”",
+          "caption": "The Odums found bands of green algae inside the coral skeleton. The AEC called their work the “first study to determine quantitatively the amount of algae present in different species of corals.”",
           "refs": [
             [
               "aec1955",
@@ -737,7 +737,7 @@
         {
           "id": "ratio",
           "label": "Plant and animal tissue",
-          "caption": "Per square centimetre of reef, a living coral held three times as much plant as animal tissue: 0.063 g of algae to 0.021 g of polyp. Zooxanthellae were only about 6% of the plant; most was green filaments in the skeleton, which they argued “may be actually mutualistic.”",
+          "caption": "Per square centimetre of reef, living coral had about three times as much plant tissue as animal tissue: 0.063 g of algae and 0.021 g of polyp. Only about 6% of the plant tissue was zooxanthellae, the algae that live in the polyps. Most of it was green filaments in the skeleton. The Odums said the coral and these algae “may be actually mutualistic.”",
           "refs": [
             [
               "odum1955",
@@ -752,7 +752,7 @@
         {
           "id": "fallout",
           "label": "Fallout as a tracer",
-          "caption": "The Odums used fallout from the bomb tests as a tracer. Water that had drifted “200 mi. from Bikini” measured 182 counts/min per litre, and reef surfaces about 300 counts/min/cm². In radioautographs of sliced coral, “the radioactivity is entirely restricted to the animal polyp zone,” which they took to mean the buried algae were fed by the coral, not by the seawater.",
+          "caption": "The Odums used radioactive fallout from the bomb tests as a tracer. Seawater that had drifted “200 mi. from Bikini” measured 182 counts per minute per litre. Reef surfaces measured about 300 counts per minute per square centimetre. They also made radioautographs: they cut corals into thin slices and laid them on photographic film, so the radioactive parts showed up on the film. These radioautographs showed that “the radioactivity is entirely restricted to the animal polyp zone.” From this, they concluded that the algae inside the skeleton got their nutrients from the coral, not from the seawater.",
           "refs": [
             [
               "odum1955",
@@ -801,9 +801,9 @@
           "1–3"
         ]
       ],
-      "notes": "Three minutes. Advance → through four stops on the coral. Real Smithsonian scan of a modern Porites lobata, not collected at Japtan; the cut-away interior is a schematic. Ratio and 6% zooxanthellae: summary item 4 (p. 318). Radioautograph: Fig. 9 (p. 301), “typical of ten.” Fallout figures: p. 316, measured with an AEC survey meter. Present the fallout as the paper does, as a tool. Martin’s reading of it comes in Part 3. Then the three reef-biology claims underneath, one line each.",
+      "notes": "Three minutes. The coral turns on its own; walk through the four points beside it. Real Smithsonian scan of a modern Porites lobata, not collected at Japtan. Ratio and 6% zooxanthellae: summary item 4 (p. 318). Radioautograph: Fig. 9 (p. 301), “typical of ten.” Fallout figures: p. 316, measured with an AEC survey meter. Present the fallout as the paper does, as a tool. Martin’s reading of it comes in Part 3. Then the three reef-biology claims underneath, one line each.",
       "cues": [
-        "→ four stops",
+        "Four points, coral turning",
         "Real scan, modern specimen",
         "3 : 1 plant to animal",
         "Fallout as a tracer (paper’s view)",
