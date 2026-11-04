@@ -1,0 +1,10 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Installed dependencies and local logs
+node_modules/
+*.log
+
+# Editor recovery files
+*.autosave
