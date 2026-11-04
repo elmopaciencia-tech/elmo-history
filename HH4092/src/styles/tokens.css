@@ -1,0 +1,74 @@
+@import '/shorthand/assets/fonts.googleapis.com/google-fonts.css';
+
+@font-face {
+  font-family: 'CircularXXSub';
+  src: url('/shorthand/fonts/CircularXXSub-Book.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* The Atomic Reef — design tokens.
+   Deep Pacific ink, lagoon turquoise, limestone, archival paper, restrained rust. */
+:root {
+  --ink-950: #051018;
+  --ink-900: #08182a;
+  --ink-850: #0b2031;
+  --ink-800: #0f2a3d;
+  --ink-700: #173a50;
+  --ink-600: #22506a;
+
+  --lagoon-200: #b9ece4;
+  --lagoon-300: #87ddd1;
+  --lagoon-400: #4fcfc0;
+  --lagoon-500: #22a99d;
+  --lagoon-700: #126b67;
+
+  --limestone: #e9e2d2;
+  --limestone-2: #d8ccb1;
+  --paper: #f3ecdc;
+  --paper-2: #e9dfc8;
+  --paper-3: #dccfb2;
+  --paper-ink: #1a2227;
+  --paper-muted: #5d625f;
+
+  --rust-300: #ec9c76;
+  --rust-400: #df7c52;
+  --rust-500: #b9552c;
+  --rust-700: #7d3418;
+
+  --on-ink: #ece5d5;
+  --on-ink-muted: #9db3bb;
+  --on-ink-faint: #6f8b96;
+  --rule-on-ink: rgba(233, 226, 210, 0.16);
+  --rule-on-paper: rgba(26, 34, 39, 0.18);
+
+  --font-display: 'Lato', sans-serif;
+  --font-sans: 'Lato', sans-serif;
+  --font-body: 'PT Serif', serif;
+  --font-mono: 'Lato', sans-serif;
+  --mast-h: 60px;
+
+  --ease-out: cubic-bezier(0.22, 0.8, 0.24, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur: 520ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur: 1ms; }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background: var(--ink-950);
+  color: var(--on-ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--lagoon-400); outline-offset: 3px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

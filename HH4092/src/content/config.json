@@ -1,0 +1,11 @@
+{
+  "_readme": "User-owned settings. Fill these in before class; the deck shows honest placeholders while they are null. showMartinLimits: set to false to drop the “Where Martin overstates” section.",
+  "presenters": ["Paciencia Elmo Pimentel U2230199G"],
+  "presentationDate": null,
+  "dateApproved": false,
+  "activityUrl": "https://docs.google.com/document/d/1VHv4qB--No6JU7H52xFdZ2q2tkiMBc8p506nemwgM3Q/edit?usp=sharing",
+  "activityShortUrl": null,
+  "responseBoardUrl": null,
+  "activityMinutes": 12,
+  "showMartinLimits": true
+}

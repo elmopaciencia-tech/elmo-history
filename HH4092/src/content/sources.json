@@ -1,0 +1,515 @@
+{
+  "prepared": "2026-10-27",
+  "statusLegend": {
+    "inspected": "Cited passages checked against the document during this build.",
+    "inspected-earlier": "Passages checked during an earlier research pass (14 Oct 2026); not re-opened in this build.",
+    "data": "Dataset retrieved and values recomputed during this build.",
+    "plan-cited": "Cited from the group’s research plan.",
+    "bibliography-only": "Bibliographic record only. The document itself was not available in this pack; nothing on the slides reproduces its pages or figures."
+  },
+  "sources": [
+    {
+      "id": "odum1957",
+      "group": "primary",
+      "bib": "Odum, Eugene P., and Howard T. Odum. “Zonation of Corals on Japtan Reef, Eniwetok Atoll.” *Atoll Research Bulletin* 52 (1957): 1–3. https://doi.org/10.5479/si.00775630.52.1.",
+      "short": "Odum and Odum, “Zonation of Corals,”",
+      "url": "https://repository.si.edu/items/dae6f890-b501-4732-a1cc-de973ee171b4",
+      "status": "inspected",
+      "note": "Smithsonian Research Online; repository rights statement “No Copyright – United States.” Six-page PDF cached in the pack (odum2.pdf). Page map: PDF 1 = cover (issued 15 Sept. 1957); PDF 2 = printed p. 1; PDF 3 = p. 2 (Table 1); PDF 4 = p. 3; PDF 5 = Figure 1 caption; PDF 6 = Figure 1.",
+      "file": "documents/odum-odum-1957-arb52.pdf"
+    },
+    {
+      "id": "odum1955",
+      "group": "primary",
+      "bib": "Odum, Howard T., and Eugene P. Odum. “Trophic Structure and Productivity of a Windward Coral Reef Community on Eniwetok Atoll.” *Ecological Monographs* 25, no. 3 (1955): 291–320. https://doi.org/10.2307/1943285.",
+      "short": "Odum and Odum, “Trophic Structure and Productivity,”",
+      "url": "https://doi.org/10.2307/1943285",
+      "status": "inspected",
+      "note": "Read in full from a JSTOR copy (Presentation/Trial/odum.pdf; archived as research/primary/odum-odum-1955-ecol-monogr.pdf), 28 Oct 2026. Page map: PDF p. n = printed p. 289 + n. Cited: 291 (introduction: “unique opportunity,” civilization sentence), 293 (methods; “orders of magnitude”; acetate boards), 301 (Fig. 9 autoradiogram), 303–9 (chlorophyll method, Codium edule; rotenone and counts), 311 (Fig. 10 pyramid: 703 / 132 / 11 g/m²), 314 (flow method; 24 g/m²/day = 74,300 lb/acre/yr; 120× open water; 2× Rongelap), 316 (Table 17: income 26.0, outgo 24.4 g/m²/day; “a kind of soil”; fallout “200 mi. from Bikini”), 317 (“only 4% apart”; “rough nature”; winter light), 318 (climax; 5.8% efficiency; turnover 12.5), 319 (summary items 9–12, 16–17, 20). Note: the text says 4%, but Table 17’s totals differ by about 6%. The reader shows an eight-page excerpt for class discussion; the full PDF is a JSTOR copy and is not published with the site.",
+      "file": "research/primary/odum-odum-1955-ecol-monogr.pdf"
+    },
+    {
+      "id": "aec1955",
+      "group": "primary",
+      "bib": "U.S. Atomic Energy Commission. “Excerpts from AEC Semiannual Reports: Eighteenth Semiannual Report, January–June 1955.” Typescript excerpt, report pp. 31, 32, 90. RMI Nuclear Documents (ICAAD), doc. 403440. https://rminucleardocs.icaad.ngo/api/files/1610679705403jdt30tedgt.pdf.",
+      "short": "AEC, Eighteenth Semiannual Report (excerpts),",
+      "url": "https://rminucleardocs.icaad.ngo/api/files/1610679705403jdt30tedgt.pdf",
+      "status": "inspected",
+      "note": "Typescript excerpts, PDF p. 1: report p. 31 (“Military Application,” weapons designed from Operation CASTLE results), p. 32 (Operation WIGWAM), and p. 90, the coral reef section (heading and first paragraph largely illegible); PDF p. 2 continues p. 90. Read visually from the scan, 4 Nov 2026; OCR is unreliable. Contains the 74,000 lb glucose/acre/year figure, plant > animal tissue, “not affected by nuclear explosions,” and the invitation to college and university biologists. Used as the class-activity source. PDF pp. 3–6 are pages 51–54 of a different printed AEC report on the 1954 Bravo fallout (probably the Sixteenth Semiannual Report, July 1954; not confirmed) and are not used. US government work.",
+      "file": "research/primary/aec-1955-eighteenth-semiannual-excerpts.pdf"
+    },
+    {
+      "id": "bugher1952",
+      "group": "primary",
+      "bib": "Bugher, John C. Memorandum to Karl M. Wilbur, “Permanent Biology Program for the Eniwetok Area.” September 22, 1952. RMI Nuclear Documents (ICAAD). https://rminucleardocs.icaad.ngo/api/files/1610680617716z8kqxgfeqa.pdf.",
+      "short": "Bugher to Wilbur, “Permanent Biology Program,”",
+      "url": "https://rminucleardocs.icaad.ngo/api/files/1610680617716z8kqxgfeqa.pdf",
+      "status": "inspected",
+      "note": "Two-page AEC memorandum. Lists reasons for a permanent biology facility, including following coral growth “marked by fission products” and “the distribution and fate of fission products.” US government work.",
+      "file": "research/primary/bugher-1952-permanent-biology-program.pdf"
+    },
+    {
+      "id": "eia",
+      "group": "data",
+      "bib": "U.S. Energy Information Administration. *Monthly Energy Review*. Table 1.3, “Primary Energy Consumption by Source.” Accessed October 27, 2026. https://www.eia.gov/totalenergy/data/monthly/.",
+      "short": "EIA, *Monthly Energy Review*, table 1.3,",
+      "url": "https://www.eia.gov/totalenergy/data/browser/?tbl=T01.03",
+      "status": "data",
+      "note": "Annual values 1950–1970 extracted from the table CSV (research/eia-mer-table-1.3.csv). Total 33.53 quads (1950) → 43.94 (1960); nuclear 0.006 quads in 1960; natural gas 10.66 vs coal 9.53 in 1958.",
+      "file": "research/eia-mer-table-1.3.csv"
+    },
+    {
+      "id": "tansley1935",
+      "group": "primary",
+      "bib": "Tansley, Arthur G. “The Use and Abuse of Vegetational Concepts and Terms.” *Ecology* 16, no. 3 (1935): 284–307. https://doi.org/10.2307/1930070.",
+      "short": "Tansley, “Use and Abuse,”",
+      "url": "https://doi.org/10.2307/1930070",
+      "status": "inspected-earlier",
+      "note": "Pp. 299–300 (ecosystem; partly artificial isolation of systems for study) read in the earlier research pass. The pack's tansley.pdf is the 2007 Progress in Physical Geography commentary, not the 1935 original."
+    },
+    {
+      "id": "bateson1946",
+      "group": "primary",
+      "bib": "Bateson, Gregory. “Physical Thinking and Social Problems.” *Science* 103, no. 2686 (1946): 717–18.",
+      "short": "Bateson, “Physical Thinking,”",
+      "url": "https://doi.org/10.1126/science.103.2686.717",
+      "status": "plan-cited",
+      "note": "Characterised here through Taylor, “Technocratic Optimism,” 238."
+    },
+    {
+      "id": "lindeman1942",
+      "group": "primary",
+      "bib": "Lindeman, Raymond L. “The Trophic-Dynamic Aspect of Ecology.” *Ecology* 23, no. 4 (1942): 399–417.",
+      "short": "Lindeman, “Trophic-Dynamic Aspect,”",
+      "url": "https://doi.org/10.2307/1930126",
+      "status": "plan-cited",
+      "note": "Quoted via Taylor."
+    },
+    {
+      "id": "eodum1953",
+      "group": "primary",
+      "bib": "Odum, Eugene P. *Fundamentals of Ecology*. Philadelphia: W. B. Saunders, 1953.",
+      "short": "E. P. Odum, *Fundamentals of Ecology*,",
+      "status": "plan-cited",
+      "note": "Golley quotes its definition of the ecosystem (Golley, 69, citing Fundamentals, 9)."
+    },
+    {
+      "id": "htodum1971",
+      "group": "primary",
+      "bib": "Odum, Howard T. *Environment, Power, and Society*. New York: Wiley-Interscience, 1971.",
+      "short": "H. T. Odum, *Environment, Power, and Society*,",
+      "status": "plan-cited",
+      "note": "The “systems science … into the seminaries” passage is taken as quoted in Taylor, 241–42."
+    },
+    {
+      "id": "sargent1954",
+      "group": "primary",
+      "bib": "Sargent, Marston C., and Thomas S. Austin. “Biologic Economy of Coral Reefs.” In *Bikini and Nearby Atolls, Marshall Islands, Part 2: Oceanography (Biologic)*, 293–300. U.S. Geological Survey Professional Paper 260-E. Washington, DC: Government Printing Office, 1954.",
+      "short": "Sargent and Austin, “Biologic Economy,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "rmi2012",
+      "group": "primary",
+      "bib": "Republic of the Marshall Islands. Comments on the report of the Special Rapporteur on the implications for human rights of the environmentally sound management and disposal of hazardous substances and wastes, mission to the Marshall Islands. UN Doc. A/HRC/21/48/Add.2, September 4, 2012.",
+      "short": "Republic of the Marshall Islands, comments, A/HRC/21/48/Add.2,",
+      "status": "plan-cited"
+    },
+    {
+      "id": "dna1980",
+      "group": "primary",
+      "bib": "Defense Nuclear Agency. *Enewetak Operation*. Fact sheet. Washington, DC: Defense Nuclear Agency, 1980.",
+      "short": "Defense Nuclear Agency, *Enewetak Operation*,",
+      "status": "plan-cited",
+      "note": "An agency history: an institutional account, not a substitute for Marshallese testimony."
+    },
+    {
+      "id": "fnerda1974",
+      "group": "primary",
+      "bib": "Federal Nonnuclear Energy Research and Development Act of 1974. Pub. L. No. 93-577, sec. 5(a)(5), 88 Stat. 1878.",
+      "short": "Federal Nonnuclear Energy R&D Act of 1974,",
+      "status": "plan-cited"
+    },
+    {
+      "id": "usgs1987",
+      "group": "map",
+      "bib": "Henry, Thomas W., and Bruce R. Wardlaw, eds. *Pacific Enewetak Atoll Crater Exploration (PEACE) Program, Enewetak Atoll, Republic of the Marshall Islands. Part 4*. U.S. Geological Survey Open-File Report 87-665. 1987. https://pubs.usgs.gov/of/1987/0665/report.pdf.",
+      "short": "Henry and Wardlaw, *PEACE Program, Part 4*,",
+      "url": "https://pubs.usgs.gov/of/1987/0665/report.pdf",
+      "status": "inspected",
+      "note": "Fig. 1-1 (atoll map with Marshallese and military island names) and fig. 2-1 (locations of OAK, KOA and MIKE craters). Public domain. A 1987 survey, not a picture of the atoll in 1954.",
+      "file": "usgs-1987.pdf"
+    },
+    {
+      "id": "golley1993",
+      "group": "secondary",
+      "bib": "Golley, Frank Benjamin. *A History of the Ecosystem Concept in Ecology: More Than the Sum of the Parts*. New Haven, CT: Yale University Press, 1993.",
+      "short": "Golley, *History of the Ecosystem Concept*,",
+      "status": "inspected",
+      "note": "Read in the pack text (golley.txt): xiii (participant), 3–5 (holism; managers; Harper “It was ignored”), 72–74 (AEC programmes; “fact of life”), 81–83 (first-law balance sheet; 4 percent at Silver Springs and Japtan Reef in July), 92–93 (flowing-water method; “not adding up”; “apples and oranges”), 66–69 (no principles; Fundamentals, “little competition”), 104–6 (162 titles; “oblivious”; “robots”). Re-read 3 Nov 2026: 73 (“Theory and the availability of funds”), 82 (Odums at Eniwetok in 1954; “not in questions”; Golley joins Odum 1958), 93 (“apples and oranges”)."
+    },
+    {
+      "id": "taylor1988",
+      "group": "secondary",
+      "bib": "Taylor, Peter J. “Technocratic Optimism, H. T. Odum, and the Partial Transformation of Ecological Metaphor after World War II.” *Journal of the History of Biology* 21, no. 2 (1988): 213–44. https://doi.org/10.1007/BF00146987.",
+      "short": "Taylor, “Technocratic Optimism,”",
+      "url": "https://doi.org/10.1007/BF00146987",
+      "status": "inspected",
+      "note": "Read in the pack PDF: “single energy dial … would recur in the field of ecology”; “constitutive of his concepts, methods, and organization of research”; The Boy Electrician; “driven by radiant energy”; “converted everything to energy”; maximum power principle (1955); “surfaced in his 1955 monograph on the Eniwetok coral reef”; seminaries passage.",
+      "file": "Taylor-TechnocraticOptimismH-1988.pdf"
+    },
+    {
+      "id": "martin2018",
+      "group": "secondary",
+      "bib": "Martin, Laura J. “Proving Grounds: Ecological Fieldwork in the Pacific and the Materialization of Ecosystems.” *Environmental History* 23, no. 3 (2018): 567–92. https://doi.org/10.1093/envhis/emy007.",
+      "short": "Martin, “Proving Grounds,”",
+      "url": "https://doi.org/10.1093/envhis/emy007",
+      "status": "inspected",
+      "note": "Read in the pack PDF: 567 (“cannot be separated”), 568 (three approaches; nn. 3–4 sort Worster, Taylor, Hagen, Golley as histories of ideas and Kwa, Palladino, Bocking, Kingsland as externalist), 569 (“Violence made ecosystems manifest”; “deemphasized their fieldwork”), 575–76 (24 June 1954; 155 lb; ONR/Pacific Science Board letter; “unique opportunity” to study “entire ecological systems in the field”; bird fat; six weeks; theorised “years before they arrived”), 576–77 (six 20 × 20 ft quadrats; helicopter; half-hour low tide; acetate and pencils; oven-dried samples; ignored variation), 578 (radioautographs; “evidence of symbiosis”; award; omissions), 579 (“neither isolated nor pristine”), 582 (AEC vetting; “fallout”). Re-read 3 Nov 2026: 572–75 (hydroids; radioautographs; “connections among species visible”), 579–81 (“Enewetak university”; Back N’ Atom Bar; 75 million gallons; “Marshall Islanders lived it”; Eugene 1963 storms; “largely able to pursue their own research agendas”), 583 (1959 and 1971 textbook sentences), 584 (“need not feel bashful”; “not discovered; nor … constructed entirely by scientists”), 585 (Islanders’ anticolonial use; “preconditions”).",
+      "file": "martin-2018.pdf"
+    },
+    {
+      "id": "deloughrey2013",
+      "group": "secondary",
+      "bib": "DeLoughrey, Elizabeth M. “The Myth of Isolates: Ecosystem Ecologies in the Nuclear Pacific.” *Cultural Geographies* 20, no. 2 (2013): 167–84. https://doi.org/10.1177/1474474012463664.",
+      "short": "DeLoughrey, “Myth of Isolates,”",
+      "url": "https://doi.org/10.1177/1474474012463664",
+      "status": "inspected-earlier",
+      "note": "Opening argument (167–69) on the island isolate and the closed system read in the earlier research pass."
+    },
+    {
+      "id": "madison1997",
+      "group": "secondary",
+      "bib": "Madison, Mark Glen. “‘Potatoes Made of Oil’: Eugene and Howard Odum and the Origins and Limits of American Agroecology.” *Environment and History* 3, no. 2 (1997): 209–38. https://doi.org/10.3197/096734097779555881.",
+      "short": "Madison, “Potatoes Made of Oil,”",
+      "url": "https://doi.org/10.3197/096734097779555881",
+      "status": "plan-cited",
+      "note": "Source of Madison’s reading of the p. 291 “not in steady state” sentence. The quotation itself is cited directly from the 1955 original."
+    },
+    {
+      "id": "creager2013",
+      "group": "secondary",
+      "bib": "Creager, Angela N. H. *Life Atomic: A History of Radioisotopes in Science and Medicine*. Chicago: University of Chicago Press, 2013.",
+      "short": "Creager, *Life Atomic*,",
+      "status": "plan-cited"
+    },
+    {
+      "id": "bocking1995",
+      "group": "secondary",
+      "bib": "Bocking, Stephen. “Ecosystems, Ecologists, and the Atom: Environmental Research at Oak Ridge National Laboratory.” *Journal of the History of Biology* 28, no. 1 (1995): 1–47. https://doi.org/10.1007/BF01061245.",
+      "short": "Bocking, “Ecosystems, Ecologists, and the Atom,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "bocking2013",
+      "group": "secondary",
+      "bib": "Bocking, Stephen. “The Ecosystem: Research and Practice in North America.” *Web Ecology* 13 (2013): 43–47. https://doi.org/10.5194/we-13-43-2013.",
+      "short": "Bocking, “The Ecosystem,”",
+      "status": "inspected",
+      "note": "Read in the open-access PDF (3 Nov 2026): 43 (Elton, Tansley, Lindeman as foundations), 44 (Hutchinson’s feedback and “metabolism”; H. T. Odum’s 1950 strontium dissertation, “self-regulation and stability”), 45 (AEC the largest supporter of ecosystem research until 1974; motives)."
+    },
+    {
+      "id": "hagen1992",
+      "group": "secondary",
+      "bib": "Hagen, Joel B. *An Entangled Bank: The Origins of Ecosystem Ecology*. New Brunswick, NJ: Rutgers University Press, 1992.",
+      "short": "Hagen, *Entangled Bank*,",
+      "status": "plan-cited"
+    },
+    {
+      "id": "hagen2008e",
+      "group": "secondary",
+      "bib": "Hagen, Joel B. “Odum, Eugene Pleasants.” In *Complete Dictionary of Scientific Biography*. Detroit: Charles Scribner’s Sons, 2008.",
+      "short": "Hagen, “Odum, Eugene Pleasants,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "hagen2008h",
+      "group": "secondary",
+      "bib": "Hagen, Joel B. “Odum, Howard Thomas.” In *Complete Dictionary of Scientific Biography*. Detroit: Charles Scribner’s Sons, 2008.",
+      "short": "Hagen, “Odum, Howard Thomas,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "hagen2008t",
+      "group": "secondary",
+      "bib": "Hagen, Joel B. “Teaching Ecology during the Environmental Age, 1965–1980.” *Environmental History* 13, no. 4 (2008): 704–23. https://doi.org/10.1093/envhis/13.4.704.",
+      "short": "Hagen, “Teaching Ecology,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "barrett2005",
+      "group": "secondary",
+      "bib": "Barrett, Gary W. “Eugene Pleasants Odum, September 17, 1913–August 10, 2002.” In *Biographical Memoirs*, vol. 87. Washington, DC: National Academies Press, 2005.",
+      "short": "Barrett, “Eugene Pleasants Odum,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "helfrich1987",
+      "group": "secondary",
+      "bib": "Helfrich, Philip, and Roger Ray. “Research at Enewetak Atoll: A Historical Perspective.” In *The Natural History of Enewetak Atoll*, vol. 1, edited by Dennis M. Devaney, Ernst S. Reese, Beatrice L. Burch, and Philip Helfrich, 1–7. Oak Ridge, TN: U.S. Department of Energy, 1987.",
+      "short": "Helfrich and Ray, “Research at Enewetak Atoll,”",
+      "status": "plan-cited",
+      "note": "Agency-sponsored history: an institutional account."
+    },
+    {
+      "id": "brown2014",
+      "group": "secondary",
+      "bib": "Brown, April L. “No Promised Land: The Shared Legacy of the Castle Bravo Nuclear Test.” *Arms Control Today*, March 2014.",
+      "short": "Brown, “No Promised Land,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "buck1983",
+      "group": "secondary",
+      "bib": "Buck, Alice L. *The Atomic Energy Commission*. Washington, DC: U.S. Department of Energy, History Division, 1983.",
+      "short": "Buck, *Atomic Energy Commission*,",
+      "status": "plan-cited",
+      "note": "Agency history."
+    },
+    {
+      "id": "wellock",
+      "group": "secondary",
+      "bib": "Wellock, Thomas. “‘Too Cheap to Meter’: A History of the Phrase.” U.S. Nuclear Regulatory Commission, History 101.",
+      "short": "Wellock, “‘Too Cheap to Meter,’”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "painter1984",
+      "group": "secondary",
+      "bib": "Painter, David S. “Oil and the Marshall Plan.” *Business History Review* 58, no. 3 (1984): 359–83. https://doi.org/10.2307/3114553.",
+      "short": "Painter, “Oil and the Marshall Plan,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "wq2009",
+      "group": "secondary",
+      "bib": "“Oil for Containment.” *Wilson Quarterly*, Fall 2009.",
+      "short": "“Oil for Containment,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "pfister2010",
+      "group": "secondary",
+      "bib": "Pfister, Christian. “The ‘1950s Syndrome’ and the Transition from a Slow-Going to a Rapid Loss of Global Sustainability.” In *Turning Points in Environmental History*, edited by Frank Uekötter, 90–117. Pittsburgh: University of Pittsburgh Press, 2010.",
+      "short": "Pfister, “The ‘1950s Syndrome,’”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "smil2002",
+      "group": "secondary",
+      "bib": "Smil, Vaclav. “Energy Resources and Uses: A Global Primer for the Twenty-First Century.” *Current History* 101, no. 653 (2002): 126–32.",
+      "short": "Smil, “Energy Resources and Uses,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "landsberg1988",
+      "group": "secondary",
+      "bib": "Landsberg, Hans H. “Resources for Freedom in Retrospect.” *Resources* (Resources for the Future), January 1988.",
+      "short": "Landsberg, “Resources for Freedom in Retrospect,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "priest2014",
+      "group": "secondary",
+      "bib": "Priest, Tyler. “Hubbert’s Peak: The Great Debate over the End of Oil.” *Historical Studies in the Natural Sciences* 44, no. 1 (2014): 37–79. https://doi.org/10.1525/hsns.2014.44.1.37.",
+      "short": "Priest, “Hubbert’s Peak,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "white1943",
+      "group": "secondary",
+      "bib": "White, Leslie A. “Energy and the Evolution of Culture.” *American Anthropologist* 45, no. 3 (1943): 335–56.",
+      "short": "White, “Energy and the Evolution of Culture,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "cottrell1955",
+      "group": "secondary",
+      "bib": "Cottrell, Fred. *Energy and Society: The Relation between Energy, Social Change, and Economic Development*. New York: McGraw-Hill, 1955.",
+      "short": "Cottrell, *Energy and Society*,",
+      "status": "plan-cited"
+    },
+    {
+      "id": "kwa1987",
+      "group": "secondary",
+      "bib": "Kwa, Chunglin. “Representations of Nature Mediating between Ecology and Science Policy: The Case of the International Biological Programme.” *Social Studies of Science* 17, no. 3 (1987): 413–42. https://doi.org/10.1177/030631287017003002.",
+      "short": "Kwa, “Representations of Nature,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "aronova2010",
+      "group": "secondary",
+      "bib": "Aronova, Elena, Karen S. Baker, and Naomi Oreskes. “Big Science and Big Data in Biology: From the International Geophysical Year through the International Biological Program to the Long Term Ecological Research (LTER) Network, 1957–Present.” *Historical Studies in the Natural Sciences* 40, no. 2 (2010): 183–224. https://doi.org/10.1525/hsns.2010.40.2.183.",
+      "short": "Aronova, Baker, and Oreskes, “Big Science and Big Data,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "simberloff1980",
+      "group": "secondary",
+      "bib": "Simberloff, Daniel. “A Succession of Paradigms in Ecology: Essentialism to Materialism and Probabilism.” *Synthese* 43, no. 1 (1980): 3–39. https://doi.org/10.1007/BF00413854.",
+      "short": "Simberloff, “Succession of Paradigms,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "worster1990",
+      "group": "secondary",
+      "bib": "Worster, Donald. “The Ecology of Order and Chaos.” *Environmental History Review* 14, nos. 1–2 (1990): 1–18. https://doi.org/10.2307/3984623.",
+      "short": "Worster, “Ecology of Order and Chaos,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "kinsey1979",
+      "group": "secondary",
+      "bib": "Kinsey, Donald William. “Carbon Turnover and Accumulation by Coral Reefs.” PhD diss., University of Hawaii, 1979.",
+      "short": "Kinsey, “Carbon Turnover,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "szmant2020",
+      "group": "secondary",
+      "bib": "Szmant, Alina. Post to Coral-List, November 6, 2020. https://coral.aoml.noaa.gov/pipermail/coral-list/2020-November/022151.html.",
+      "short": "Szmant, Coral-List post,",
+      "status": "plan-cited",
+      "note": ""
+    },
+    {
+      "id": "purdy1998",
+      "group": "secondary",
+      "bib": "Purdy, Judy Bolyard. “A Voice for the Wild.” *Research Magazine* (University of Georgia), Fall 1998.",
+      "short": "Purdy, “A Voice for the Wild,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "crafoord1987",
+      "group": "secondary",
+      "bib": "Royal Swedish Academy of Sciences. “The Crafoord Prizewinners 1987: Eugene P. Odum and Howard T. Odum.” Press release, September 23, 1987.",
+      "short": "Royal Swedish Academy of Sciences, “Crafoord Prizewinners 1987,”",
+      "status": "plan-cited"
+    },
+    {
+      "id": "hh4092w34",
+      "group": "secondary",
+      "bib": "HH4092 A History of Ecology. Weeks 3–4 lecture slides, “Internalist and Externalist Historiography.” Nanyang Technological University, 2026.",
+      "short": "HH4092, Weeks 3–4 lecture slides,",
+      "status": "inspected-earlier",
+      "note": "Wording taken from the course revision sheet, which quotes the slides; the lecture slides themselves were not reopened in this build."
+    },
+    {
+      "id": "gattuso1999",
+      "group": "secondary",
+      "bib": "Gattuso, Jean-Pierre, Michel Frankignoulle, and Stephen V. Smith. “Measurement of Community Metabolism and Significance in the Coral Reef CO₂ Source-Sink Debate.” *Proceedings of the National Academy of Sciences* 96, no. 23 (1999): 13017–22. https://doi.org/10.1073/pnas.96.23.13017.",
+      "short": "Gattuso, Frankignoulle, and Smith, “Measurement of Community Metabolism,”",
+      "url": "https://doi.org/10.1073/pnas.96.23.13017",
+      "status": "inspected",
+      "note": "Read in the open-access PMC text (3 Nov 2026): most reef flats’ “metabolism of organic carbon is nearly balanced (Pg/R ≈ 1, Pn ≈ 0).” Exact page within 13017–22 not confirmed."
+    },
+    {
+      "id": "johannes1972",
+      "group": "secondary",
+      "bib": "Johannes, R. E., et al. “The Metabolism of Some Coral Reef Communities: A Team Study of Nutrient and Energy Flux at Eniwetok.” *BioScience* 22, no. 9 (1972): 541–43. https://doi.org/10.2307/1296314.",
+      "short": "Johannes et al., “Metabolism of Some Coral Reef Communities,”",
+      "url": "https://doi.org/10.2307/1296314",
+      "status": "bibliography-only",
+      "note": "Citation confirmed; text not available in this pack. Cited only as a later team re-measurement of Enewetak’s windward reef; nothing is quoted."
+    },
+    {
+      "id": "smith1973",
+      "group": "secondary",
+      "bib": "Smith, S. V., and J. A. Marsh Jr. “Organic Carbon Production on the Windward Reef Flat of Eniwetok Atoll.” *Limnology and Oceanography* 18, no. 6 (1973): 953–61.",
+      "short": "Smith and Marsh, “Organic Carbon Production,”",
+      "status": "bibliography-only",
+      "note": "Citation confirmed from later reference lists; text not available in this pack. Cited only as a later re-measurement; nothing is quoted."
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-frank-golley-portrait",
+      "title": "Photograph of Frank B. Golley",
+      "credit": "University of Georgia, UGA Today. Anisa Jimenez, “Frank Golley, Institute of Ecology emeritus professor, dies at age 76,” 16 October 2006. https://news.uga.edu/frank-golley-institute-of-ecology-emeritus-professor-dies-at-age-76/",
+      "licence": "No open licence verified. Rights retained by the source rights holder; confirm permission before wider redistribution.",
+      "files": "media/portraits/frank-golley.jpg",
+      "use": "Golley reading profile; cropped responsively. Photographer not identified on the source page."
+    },
+    {
+      "id": "asset-peter-taylor-portrait",
+      "title": "Photograph of Peter J. Taylor",
+      "credit": "Peter J. Taylor, “About,” Intersecting Processes, https://pjt111.wordpress.com/about/. Image: https://pcrcr.files.wordpress.com/2019/05/pjtpacificmar17bcroporiginal.jpg",
+      "licence": "No open licence verified. Rights retained by the source rights holder; confirm permission before wider redistribution.",
+      "files": "media/portraits/peter-taylor.jpg",
+      "use": "Taylor reading profile. Identity checked against the author's account of his Cornell, Swarthmore and UMass Boston appointments. Photographer not identified."
+    },
+    {
+      "id": "asset-laura-martin-portrait",
+      "title": "Photograph of Laura J. Martin",
+      "credit": "Laura J. Martin, official author website, https://www.ljanemartin.com/. Portrait file: LauraMartin-02306-3 copy.jpg.",
+      "licence": "No open licence verified. Rights retained by the source rights holder; confirm permission before wider redistribution.",
+      "files": "media/portraits/laura-martin.jpg",
+      "use": "Martin reading profile; cropped responsively. Photographer not identified on the source page."
+    },
+    {
+      "id": "asset-eugene-odum-portrait",
+      "title": "Photograph of Eugene P. Odum",
+      "credit": "University of Georgia Photographic Services, via New Georgia Encyclopedia: https://www.georgiaencyclopedia.org/articles/geography-environment/eugene-odum-1913-2002/",
+      "licence": "Copyright retained by the source rights holder. No open licence verified; included for this educational presentation, not represented as public domain. Confirm permission before wider redistribution.",
+      "files": "media/portraits/eugene-odum.jpg",
+      "use": "Eugene Odum profile. Cropped responsively for display; not presented as a photograph from the 1954 reef expedition."
+    },
+    {
+      "id": "asset-howard-odum-portrait",
+      "title": "Photograph of Howard T. Odum",
+      "credit": "Courtesy of Robert Knight, via Florida Springs Institute: https://floridaspringsinstitute.org/howard-t-odum/ (CIMG4915.jpg).",
+      "licence": "Copyright retained by the source rights holder. No open licence verified; included for this educational presentation, not represented as public domain. Confirm permission before wider redistribution.",
+      "files": "media/portraits/howard-odum.jpg",
+      "use": "Howard Odum profile. Cropped responsively for display; not presented as a photograph from the 1954 reef expedition."
+    },
+    {
+      "id": "asset-esri",
+      "title": "Satellite imagery of Enewetak, Japtan, the Ivy Mike crater and Runit Dome",
+      "credit": "Esri World Imagery; source imagery Vantor WorldView-3, 4 January 2026 (1.2 m sampled basemap). Sources: Esri, Vantor, Earthstar Geographics, and the GIS User Community.",
+      "licence": "Static map images used in an educational presentation with attribution under Esri’s static-map terms (https://doc.arcgis.com/en/arcgis-online/reference/static-maps.htm). Not public domain; not redistributed as a dataset.",
+      "files": "assets/map/enewetak-atoll.webp (stitched from a 4 × 4 export grid, bbox 162.00–162.43° E, 11.30–11.72° N; the lagoon’s straight tonal seams are in Esri’s mosaic), japtan-worldview-2026.webp, japtan-worldview-close-2026.webp, mike-crater-2026.webp, runit-dome-2026.webp",
+      "use": "2026 imagery for orientation only. It is not a picture of the atoll in 1954."
+    },
+    {
+      "id": "asset-ne",
+      "title": "Globe and regional coastlines",
+      "credit": "Natural Earth 1:10m land, minor islands and reefs.",
+      "licence": "Public domain (https://www.naturalearthdata.com/about/terms-of-use/).",
+      "files": "assets/map/globe.webp, assets/map/region.webp, src/content/region-paths.json (built by scripts/build-map-assets.mjs)"
+    },
+    {
+      "id": "asset-usgs-map",
+      "title": "USGS atoll map (fallback and print)",
+      "credit": "Henry and Wardlaw, eds., USGS Open-File Report 87-665 (1987), fig. 1-1.",
+      "licence": "US federal government work, public domain.",
+      "files": "assets/map/enewetak-usgs.png"
+    },
+    {
+      "id": "asset-porites",
+      "title": "Coral head: Porites lobata (USNM 646)",
+      "credit": "Smithsonian National Museum of Natural History, Department of Invertebrate Zoology; 3D model by the Smithsonian Digitization Program Office. 3D package 010228bb-75de-4fff-a848-c70584ce1087 (EDAN nmnhinvertebratezoology_36632).",
+      "licence": "Smithsonian’s coral 3D scans are released through Smithsonian Open Access as CC0. The item page (3d.si.edu) showed a verification wall to automated requests, so item-level CC0 status should be confirmed by a person before redistribution.",
+      "files": "assets/reef/porites-lobata.glb (Web3D “Low”: 150k triangles, 1024 px texture, Draco-compressed)",
+      "use": "A modern museum specimen, not a coral collected at Japtan. Porites lobata is chosen because the 1957 paper names it as the species that tolerated “the widest range of conditions” on the transect. The cut-away interior is a labelled schematic; band depths are illustrative."
+    },
+    {
+      "id": "asset-scans",
+      "title": "Primary-source page images",
+      "credit": "Rendered from the Smithsonian PDF (Atoll Research Bulletin 52), the ICAAD scan of the AEC Eighteenth Semiannual Report excerpts, and the ICAAD scan of the Bugher memorandum.",
+      "licence": "No Copyright – United States (Smithsonian rights statement) and US government works.",
+      "files": "assets/source/*.webp (unaltered page rasters)"
+    },
+    {
+      "id": "asset-type",
+      "title": "Typefaces",
+      "credit": "Fraunces (Undercase Type), Public Sans (USWDS), IBM Plex Mono (IBM), bundled through Fontsource.",
+      "licence": "SIL Open Font License 1.1."
+    },
+    {
+      "id": "asset-code",
+      "title": "Software",
+      "credit": "React, Three.js and its Draco decoder, qrcode, Vite, TypeScript.",
+      "licence": "MIT; Apache-2.0 (Draco, TypeScript). Versions pinned in package-lock.json."
+    }
+  ]
+}

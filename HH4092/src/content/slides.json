@@ -1,0 +1,1878 @@
+{
+  "deck": {
+    "title": "The Atomic Atoll",
+    "subtitle": "The Odum Brothers’ Coral Reef Study at Eniwetok, 1954–55",
+    "course": "HH4092 Presentation",
+    "question": "How did the Odums’ experience at Eniwetok shape and produce ecology’s textbook model of an isolated, self-balancing ecosystem?",
+    "thesis": "I argue that Laura Martin is mostly right. The Odums arrived at Enewetak already expecting a self-balancing system, and the reef they measured was available as an “isolated” laboratory, “little affected by nuclear explosions,” only because the Atomic Energy Commission had moved the atoll’s people away and turned it into a test site. The 1955 paper leaves both facts out. But Martin overstates one thing: the bomb did not make up the result. The ecosystem idea and its energy accounting were older than the test site, and the paper’s rough measurements were later broadly confirmed. The reef’s budget did roughly balance; what the paper left out was the cost of doing the study there.",
+    "segments": [
+      {
+        "id": "intro",
+        "label": "The question",
+        "slides": [
+          1,
+          1
+        ],
+        "minutes": 2,
+        "short": "Question"
+      },
+      {
+        "id": "one",
+        "label": "Part 1 · The Odums",
+        "slides": [
+          2,
+          4
+        ],
+        "minutes": 8,
+        "short": "Odums"
+      },
+      {
+        "id": "two",
+        "label": "Part 2 · The 1955 paper",
+        "slides": [
+          5,
+          8
+        ],
+        "minutes": 10,
+        "short": "Paper"
+      },
+      {
+        "id": "three",
+        "label": "Part 3 · Historians",
+        "slides": [
+          9,
+          13
+        ],
+        "minutes": 13.5,
+        "short": "Historians"
+      },
+      {
+        "id": "four",
+        "label": "Part 4 · Synthesis",
+        "slides": [
+          14,
+          17
+        ],
+        "minutes": 16.5,
+        "short": "Synthesis"
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": "title",
+      "layout": "title",
+      "kicker": "HH4092 · Week 11 presentation",
+      "title": "The Atomic Atoll",
+      "subtitle": "The Odum Brothers’ Coral Reef Study at Eniwetok, 1954–55",
+      "minutes": 2,
+      "hook": {
+        "lead": "",
+        "figures": [
+          {
+            "img": "assets/map/mike-crater-2026.webp",
+            "label": "Ivy Mike crater, where Elugelab island used to be",
+            "date": "fired 1 Nov 1952 · imaged 4 Jan 2026",
+            "credit": "Esri World Imagery, Vantor WorldView-3",
+            "alt": "Satellite view of the Ivy Mike crater at Enewetak, a dark circular basin in the reef where an island once stood."
+          },
+          {
+            "img": "assets/source/odum1957-pdf6.webp",
+            "label": "The Japtan Reef transect, from sea to lagoon",
+            "date": "fieldwork June–July 1954",
+            "credit": "Odum and Odum, “Zonation of Corals,” fig. 1 (1957)",
+            "alt": "The Odums’ diagram of the Japtan reef transect, side and aerial views, with coral zones A to E between lagoon and sea."
+          },
+          {
+            "img": "assets/source/odum1955-fig10.webp",
+            "label": "Pyramid of biomass from the 1955 paper: 703, 132 and 11 g per m²",
+            "date": "published July 1955",
+            "credit": "Odum and Odum, “Trophic Structure and Productivity,” fig. 10",
+            "alt": "Figure 10 of the 1955 paper: stacked bars for quadrats A to F and the mean, producers 703 grams, herbivores 132, carnivores 11 grams per square metre."
+          }
+        ]
+      },
+      "refs": [
+        [
+          "odum1955",
+          "311, fig. 10"
+        ],
+        [
+          "odum1957",
+          "fig. 1"
+        ],
+        [
+          "usgs1987",
+          "fig. 2-1"
+        ]
+      ],
+      "notes": "Open on the three pictures and read the question aloud. Leave a beat. The paradox: an atoll whose people were moved off in 1947, and where ten devices had been fired by June 1954, gave ecology its model of an “isolated,” self-balancing system. Do not give my verdict yet; hold it for Part 4. Give the route: Part 1 the Odums, Part 2 their paper as they told it, Part 3 three historians, Part 4 the class activity, then my verdict. Introduce yourself (name in config.json).",
+      "cues": [
+        "Read the question; pause 3 s",
+        "Introduce yourself",
+        "Route: four parts; verdict held for Part 4"
+      ]
+    },
+    {
+      "id": "lineage",
+      "layout": "people",
+      "kicker": "Part 1 · The Odums",
+      "title": "Who the Odums were, and what they brought",
+      "minutes": 3,
+      "lead": "Before they went to Enewetak, the brothers already had the ideas and the methods the reef study would use: one system as one unit, organisms sorted by trophic level, everything counted in energy, and Tom’s flow method from Silver Springs.",
+      "before": [
+        {
+          "year": "1935",
+          "t": "Tansley introduces the term “ecosystem” for organisms and their physical environment taken as one system, a “mental isolate.” The 1955 paper measures one reef as one such unit.",
+          "refs": [
+            [
+              "tansley1935",
+              "299–300"
+            ]
+          ]
+        },
+        {
+          "year": "1942",
+          "t": "Lindeman counts energy between trophic levels; Hutchinson praises reducing biological events “to energetic terms.” The paper’s pyramid and balance sheet extend this.",
+          "refs": [
+            [
+              "taylor1988",
+              "224–26"
+            ]
+          ]
+        },
+        {
+          "year": "1948",
+          "t": "G. Evelyn Hutchinson, Tom’s supervisor at Yale, built budgets of carbon in the biosphere and phosphorus in lakes and “attempted to balance those budgets,” explaining the balance with feedback loops from wartime cybernetics.",
+          "refs": [
+            [
+              "taylor1988",
+              "215"
+            ],
+            [
+              "bocking2013",
+              "44"
+            ]
+          ]
+        },
+        {
+          "year": "1950",
+          "t": "Tom’s dissertation read the steady global distribution of strontium as evidence of “the self-balancing dynamics of the strontium ecosystem.” The self-regulating system existed in his work before the reef.",
+          "refs": [
+            [
+              "taylor1988",
+              "225"
+            ],
+            [
+              "bocking2013",
+              "44"
+            ]
+          ]
+        }
+      ],
+      "shared": {
+        "h": "Their father",
+        "name": "Howard W. Odum (1884–1954), UNC sociologist",
+        "t": "A sociologist of Southern regionalism who urged his sons “to develop new techniques to contribute to social progress.” Madison calls “a social role for the scientist” the family legacy. It shows on the paper’s first page, where the reef might teach “man” about “optima for utilizing sunlight and raw materials.”",
+        "refs": [
+          [
+            "madison1997",
+            "209–10"
+          ],
+          [
+            "odum1955",
+            "291"
+          ]
+        ]
+      },
+      "people": [
+        {
+          "name": "Eugene P. Odum",
+          "route": [
+            "PhD at Illinois (1939) on bird heart rates",
+            "Converted to holistic community ecology by Victor Shelford",
+            "University of Georgia from 1940; AEC contract at the Savannah River Site, 1951–52",
+            "Fundamentals of Ecology (1953), organized around the ecosystem"
+          ],
+          "routeRefs": [
+            [
+              "barrett2005",
+              "318–19"
+            ],
+            [
+              "golley1993",
+              "66–69"
+            ]
+          ],
+          "brought": [
+            {
+              "h": "Goal for the discipline",
+              "t": "In 1945 Eugene wanted “to help put ecology on a firm foundation such as is now enjoyed by genetics.” Told that ecology “had no principles,” he wrote a list of them, and that list became the structure of Fundamentals.",
+              "refs": [
+                [
+                  "golley1993",
+                  "65–67"
+                ]
+              ]
+            },
+            {
+              "h": "AEC funding",
+              "t": "He wrote the proposal to the AEC, “echoing Tom’s language”; the contract ran through the University of Georgia.",
+              "refs": [
+                [
+                  "martin2018",
+                  "575–76"
+                ],
+                [
+                  "odum1955",
+                  "292"
+                ]
+              ]
+            },
+            {
+              "h": "Trophic levels and pyramids",
+              "t": "The paper refers readers to his 1953 textbook “for a discussion of pyramids and production.”",
+              "refs": [
+                [
+                  "odum1955",
+                  "291"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Howard T. “Tom” Odum",
+          "route": [
+            "Learned electrical circuits as a boy from The Boy Electrician",
+            "Wartime tropical meteorologist",
+            "Yale PhD under Hutchinson (1950); by 1951 he described biogeochemical cycles as “driven by radiant energy”",
+            "At the University of Florida, measured the whole community of Silver Springs"
+          ],
+          "routeRefs": [
+            [
+              "taylor1988",
+              "218–26"
+            ]
+          ],
+          "brought": [
+            {
+              "h": "Flow method",
+              "t": "Tom measured the oxygen in the water entering and leaving the reef, by day and by night. Oxygen rising by day shows photosynthesis, and oxygen falling at night shows respiration. He had already used this method at Silver Springs, Florida. The AEC “had no interest in bird fat” but was “enthusiastic about Tom’s methods.”",
+              "refs": [
+                [
+                  "odum1955",
+                  "314"
+                ],
+                [
+                  "martin2018",
+                  "576"
+                ]
+              ]
+            },
+            {
+              "h": "Efficiency theory",
+              "t": "Tom argued that a stable system settles at a low efficiency rather than its maximum, because that is where it produces the most power. He first set this out in a 1955 paper with Pinkerton, and it became his “maximum power” principle.",
+              "refs": [
+                [
+                  "odum1955",
+                  "291, 318"
+                ],
+                [
+                  "taylor1988",
+                  "230–31"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "merge": "The energy approach came before the trip. Tom had been working on energy flow since 1951 and wrote the energy chapter of Fundamentals in 1953; the reef was a new place to apply a method and a picture of nature they already had.",
+      "mergeRefs": [
+        [
+          "golley1993",
+          "81, 92–93"
+        ],
+        [
+          "taylor1988",
+          "225"
+        ]
+      ],
+      "contested": "Who led the study is disputed. Tom is first author, and Taylor and Martin credit him with the method and the energy ideas; he also wrote the energy chapter of Fundamentals (1953). Golley and Eugene’s biographers present Eugene as the main organizer. The paper cites earlier work by both.",
+      "footer": null,
+      "refs": [
+        [
+          "tansley1935",
+          "299–300"
+        ],
+        [
+          "taylor1988",
+          "215, 218–26"
+        ],
+        [
+          "bocking2013",
+          "43–44"
+        ],
+        [
+          "madison1997",
+          "209–10"
+        ],
+        [
+          "odum1955",
+          "291–93, 314"
+        ],
+        [
+          "golley1993",
+          "62–69, 81, 92–93"
+        ],
+        [
+          "barrett2005",
+          "318–19"
+        ],
+        [
+          "martin2018",
+          "575–76"
+        ],
+        [
+          "hagen2008e",
+          ""
+        ],
+        [
+          "hagen2008h",
+          ""
+        ]
+      ],
+      "notes": "Two and a half minutes. Top row left to right: what ecology already had (Tansley, Lindeman), then the Yale line (Hutchinson’s balanced budgets, Tom’s “self-balancing” strontium). Point out that the self-balancing idea is in Tom’s work in 1950, before any reef. Then the father, and say the course link aloud: ecology and sociology in one family. Then the two brothers: Eugene the ambition, the textbook and the patron; Tom the flow method and the efficiency theory. Land the merge line. Who led? Leave it open. Lotka and Technocracy now live in the Taylor section.",
+      "cues": [
+        "Top row: Tansley → Lindeman → Hutchinson → Tom 1950",
+        "Self-balancing before the reef",
+        "Father: say the course link",
+        "Eugene: ambition, textbook, patron",
+        "Tom: method, theory",
+        "Who led? leave open"
+      ],
+      "beforeHead": "Earlier ideas the study drew on, 1935–1950"
+    },
+    {
+      "id": "patron",
+      "layout": "pitch",
+      "kicker": "Part 1 · The patron",
+      "title": "How the Atomic Energy Commission funded the study",
+      "minutes": 2,
+      "refs": [
+        [
+          "bugher1952",
+          "1"
+        ],
+        [
+          "martin2018",
+          "575–76"
+        ],
+        [
+          "odum1955",
+          "291"
+        ],
+        [
+          "bocking2013",
+          "45"
+        ],
+        [
+          "golley1993",
+          "105"
+        ],
+        [
+          "helfrich1987",
+          "5–7"
+        ]
+      ],
+      "notes": "Two minutes. Three documents, left to right: the AEC wanted biology at Enewetak in 1952; Eugene’s June 1953 letter sold “the unique opportunity” to study “entire ecological systems in the field”; the printed paper keeps both phrases on p. 291 (italics in the original). Read “inherently stable” and note it comes before any measurement. Then the bird-fat line and the 155 lb of equipment. Close on the course link: the state as patron, as Rockefeller was for the University of Chicago in Week 7.",
+      "cues": [
+        "Memo → letter → print",
+        "“Inherently stable” before any data",
+        "Bird fat line",
+        "Course link: state as patron"
+      ],
+      "pitch": {
+        "h": "The grant proposal and the published paper use the same words",
+        "items": [
+          {
+            "label": "AEC memo · 22 Sept 1952",
+            "t": "Before the Odums applied, the AEC already wanted a permanent biology facility at Enewetak, partly to follow coral growth “marked by fission products.”",
+            "ref": [
+              "bugher1952",
+              "1"
+            ],
+            "page": {
+              "doc": "bugher1952",
+              "pdf": 1
+            }
+          },
+          {
+            "label": "Eugene Odum to Karl Wilbur, AEC · 11 June 1953",
+            "t": "Eugene’s proposal, “echoing Tom’s language,” highlighted “the unique opportunity” that atomic testing created to study “entire ecological systems in the field.”",
+            "ref": [
+              "martin2018",
+              "575–76"
+            ]
+          },
+          {
+            "label": "Odum and Odum, July 1955 · p. 291",
+            "t": "“Since nuclear explosion tests are being conducted in the vicinity of these inherently stable reef communities, a unique opportunity is provided for critical assays of the effects of radiations due to fission products on whole populations and entire ecological systems in the field.”",
+            "ref": [
+              "odum1955",
+              "291"
+            ],
+            "page": {
+              "doc": "odum1955",
+              "pdf": 2
+            }
+          }
+        ],
+        "after": "The AEC “had no interest in bird fat” but was “enthusiastic about Tom’s methods,” and offered a six-week grant. On 24 June 1954 the brothers landed on Enewetak with 155 pounds of equipment.",
+        "afterRef": [
+          "martin2018",
+          "575–76"
+        ]
+      }
+    },
+    {
+      "id": "map",
+      "layout": "map",
+      "kicker": "Part 1 · The place",
+      "title": "Where the study took place",
+      "minutes": 2,
+      "stops": [
+        {
+          "id": "pacific",
+          "label": "Pacific",
+          "caption": "Enewetak sits 4,380 km west-southwest of Honolulu and 1,900 km east of Guam. Japan took it in 1914 and held it under a League of Nations mandate; US forces captured it in February 1944; it entered the UN Trust Territory in 1947.",
+          "refs": [
+            [
+              "dna1980",
+              ""
+            ],
+            [
+              "rmi2012",
+              "paras. 6, 9–10"
+            ]
+          ]
+        },
+        {
+          "id": "marshalls",
+          "label": "Marshall Islands",
+          "caption": "Bikini’s people were moved to Rongerik in 1946. In December 1947 about 145 dri-Enewetak were moved to Ujelang, a much smaller atoll; told the move was temporary, they stayed 33 years. Castle Bravo (Bikini, 1 Mar 1954) contaminated Rongelap and Utirik.",
+          "refs": [
+            [
+              "rmi2012",
+              "paras. 6, 9–10"
+            ],
+            [
+              "brown2014",
+              ""
+            ]
+          ],
+          "courseLink": {
+            "week": "Course link · Week 6 · access to the field",
+            "t": "Two American ecologists flew in with 155 lb of equipment; the atoll’s own people had been on Ujelang since 1947."
+          }
+        },
+        {
+          "id": "atoll",
+          "label": "Enewetak Atoll",
+          "caption": "The United States detonated 43 nuclear devices here, 1948–58. Ten had been fired before the Odums landed on 24 June 1954. The marine laboratory on Medren (Parry) Island was formalized under an AEC contract signed 3 June 1954.",
+          "refs": [
+            [
+              "martin2018",
+              "575–78"
+            ],
+            [
+              "helfrich1987",
+              "5–7"
+            ],
+            [
+              "dna1980",
+              ""
+            ]
+          ]
+        },
+        {
+          "id": "japtan",
+          "label": "Japtan Reef",
+          "caption": "The transect crossed the windward inter-island reef about a quarter mile north of Japtan, near the lab. The 1955 paper calls it a “relatively isolated system,” a reef that “as yet has been little affected by nuclear explosions.” By 1957 it was a “control” for reefs “more directly affected by nuclear weapons tests.”",
+          "refs": [
+            [
+              "odum1955",
+              "291"
+            ],
+            [
+              "odum1957",
+              "1"
+            ]
+          ]
+        },
+        {
+          "id": "mike",
+          "label": "Ivy Mike crater",
+          "caption": "Ivy Mike, the first thermonuclear device (1 Nov 1952), removed the island of Elugelab. Its crater, with the later KOA crater beside it, is still visible from orbit.",
+          "refs": [
+            [
+              "usgs1987",
+              "fig. 2-1"
+            ]
+          ]
+        },
+        {
+          "id": "runit",
+          "label": "Runit Dome",
+          "caption": "When the people returned in 1980, about 154 acres had been vaporized and about 950 acres were too radioactive to use. About 105,000 cubic yards of contaminated soil lie under the concrete dome on Runit.",
+          "refs": [
+            [
+              "brown2014",
+              ""
+            ],
+            [
+              "dna1980",
+              ""
+            ]
+          ]
+        }
+      ],
+      "refs": [
+        [
+          "dna1980",
+          ""
+        ],
+        [
+          "rmi2012",
+          "paras. 6, 9–10"
+        ],
+        [
+          "martin2018",
+          "578"
+        ],
+        [
+          "helfrich1987",
+          "5–7"
+        ],
+        [
+          "brown2014",
+          ""
+        ],
+        [
+          "odum1957",
+          "1"
+        ],
+        [
+          "odum1955",
+          "291"
+        ]
+      ],
+      "notes": "Advance with → through six stops; the camera flies globe → Marshall Islands → atoll → Japtan → Mike crater → Runit. Each stop has its own caption and footnote. Satellite imagery is from January 2026, not 1954: say so once. On the Marshall Islands stop, name the people before the bombs: the dri-Enewetak lived on Ujelang for 33 years. The Defense Nuclear Agency and Helfrich & Ray are agency/institutional accounts, not Marshallese testimony. On Japtan, read the paper’s own words: “relatively isolated,” “little affected by nuclear explosions.” That is the paradox from the title, now on the map. If WebGL fails, the slide shows a 2D regional map and the atoll image with the same labels. On the Marshall Islands stop, say the course link: access to the field (Week 6).",
+      "cues": [
+        "→ six stops",
+        "Say once: imagery is 2026, not 1954",
+        "Name the dri-Enewetak on Ujelang",
+        "Japtan: “little affected by nuclear explosions”",
+        "Course link: access to the field"
+      ]
+    },
+    {
+      "id": "method",
+      "layout": "reef",
+      "kicker": "Part 2 · The paper · methods",
+      "title": "How they measured the reef",
+      "minutes": 3,
+      "stops": [
+        {
+          "id": "zones",
+          "label": "The study site",
+          "caption": "Water crossed this windward reef flat in one direction, from sea to lagoon. That meant Tom could use the method he had developed at Silver Springs, which he called “a ready-made natural laboratory,” and measure the whole community from the water entering and leaving. The 1957 diagram shows the zones in order: buttress, ridge (A), encrusting zone (B), small and large heads (C, D), sand and shingle (E).",
+          "refs": [
+            [
+              "odum1957",
+              "1, fig. 1"
+            ],
+            [
+              "martin2018",
+              "575"
+            ],
+            [
+              "golley1993",
+              "92–93"
+            ]
+          ]
+        },
+        {
+          "id": "quadrats",
+          "label": "Six quadrats",
+          "caption": "Six 20 × 20 ft quadrats “marked by iron stakes,” in a line parallel to the current, were mapped “with pencil on acetate boards” by snorkellers. Some were hard to reach. One was seen only in “brief glimpses from a helicopter,” and another could be sampled only during a half-hour window at low tide.",
+          "refs": [
+            [
+              "odum1955",
+              "293, fig. 2"
+            ],
+            [
+              "martin2018",
+              "577"
+            ]
+          ]
+        },
+        {
+          "id": "current",
+          "label": "Measuring the current",
+          "caption": "Speed came from 26 dye releases, fluorescein “from air-sea rescue kits,” timed between two observers. Spring tides probably ran twice as fast but went unmeasured: “the observers were too busy hastening to shore to get a measurement.”",
+          "refs": [
+            [
+              "odum1955",
+              "297"
+            ]
+          ]
+        },
+        {
+          "id": "flow",
+          "label": "Oxygen upstream and downstream",
+          "caption": "Measure oxygen in the water upstream and downstream at the same time. “The oxygen increase between stations during the day is the net photosynthetic production of the community. The oxygen decrease between stations during the night is the total respiration.” Multiply by the current and you have the whole reef’s metabolism.",
+          "refs": [
+            [
+              "odum1955",
+              "314, fig. 12"
+            ],
+            [
+              "golley1993",
+              "92–93"
+            ]
+          ]
+        },
+        {
+          "id": "census",
+          "label": "Weighing and sorting",
+          "caption": "Each species was converted to dry weight from one or a few dried and weighed samples, then assigned to producers, herbivores or carnivores. The paper explains why it works at that level: species vary “from spot to spot,” but “the biomass per area is more constant.” With so many methods used at once, the authors warn, “it is the orders of magnitude which mainly emerge.”",
+          "refs": [
+            [
+              "odum1955",
+              "293"
+            ],
+            [
+              "martin2018",
+              "577"
+            ]
+          ]
+        }
+      ],
+      "legend": {
+        "documented": [
+          "Zone order and names (1957, fig. 1)",
+          "Sea → lagoon current; depth and speed gradients (1957, p. 1)",
+          "Six 20 × 20 ft quadrats, staked, in a line parallel to the current (1955, p. 293; Martin)",
+          "Quadrat order A–F and approximate positions along the transect (1955, fig. 2)"
+        ],
+        "illustrative": [
+          "Quadrat size (drawn oversized) and stake height",
+          "Which quadrat was seen from the helicopter (A, in the breakers, inferred)",
+          "Terrain shape, scale and vertical exaggeration",
+          "Coral forms and density",
+          "Sampling-point placement",
+          "Water surface and flow streaks (qualitative only)"
+        ]
+      },
+      "refs": [
+        [
+          "odum1955",
+          "293, 297, 314"
+        ],
+        [
+          "odum1957",
+          "1, fig. 1"
+        ],
+        [
+          "martin2018",
+          "575–77"
+        ],
+        [
+          "golley1993",
+          "92–93"
+        ],
+        [
+          "aec1955",
+          "90"
+        ]
+      ],
+      "notes": "Three minutes. Tell it the way the paper does; Martin’s field-log comparison waits for Part 3. Advance → through five stops. Use Side view first (matches the upper half of the 1957 figure); S shows the figure. The flow method is the paper’s own description (p. 314): day oxygen gain = net production, night loss = respiration. Bubbles off the algal mats mean production is underestimated (p. 314). Dye detail and the observers hastening to shore: p. 297. Plants could not be picked out of skeleton and rubble, so plant mass came from extracted chlorophyll (pp. 303–9): mention if asked.",
+      "cues": [
+        "→ five stops",
+        "S = 1957 figure",
+        "Helicopter, half-hour tide",
+        "Dye kits; “hastening to shore”",
+        "Day O₂ gain = production",
+        "“Orders of magnitude”"
+      ]
+    },
+    {
+      "id": "findings",
+      "layout": "coral",
+      "kicker": "Part 2 · The paper · findings",
+      "title": "What they found inside the coral",
+      "minutes": 3,
+      "stops": [
+        {
+          "id": "head",
+          "label": "Coral head",
+          "caption": "Porites lobata, the coral the Odums found across most of the reef. It looks like an animal, but most of its living tissue turned out to be plant.",
+          "refs": [
+            [
+              "odum1957",
+              "1"
+            ]
+          ]
+        },
+        {
+          "id": "cut",
+          "label": "Cross-section",
+          "caption": "Inside the skeleton are bands of green algae. The AEC called this the “first study to determine quantitatively the amount of algae present in different species of corals.”",
+          "refs": [
+            [
+              "aec1955",
+              "90"
+            ]
+          ]
+        },
+        {
+          "id": "ratio",
+          "label": "Plant and animal tissue",
+          "caption": "Per square centimetre of reef, a living coral held three times as much plant as animal tissue: 0.063 g of algae to 0.021 g of polyp. Zooxanthellae were only about 6% of the plant; most was green filaments in the skeleton, which they argued “may be actually mutualistic.”",
+          "refs": [
+            [
+              "odum1955",
+              "318, summary 4"
+            ],
+            [
+              "aec1955",
+              "90"
+            ]
+          ]
+        },
+        {
+          "id": "fallout",
+          "label": "Fallout as a tracer",
+          "caption": "The Odums used fallout from the bomb tests as a tracer. Water that had drifted “200 mi. from Bikini” measured 182 counts/min per litre, and reef surfaces about 300 counts/min/cm². In radioautographs of sliced coral, “the radioactivity is entirely restricted to the animal polyp zone,” which they took to mean the buried algae were fed by the coral, not by the seawater.",
+          "refs": [
+            [
+              "odum1955",
+              "301, fig. 9; 316"
+            ]
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "h": "A coral reef is mostly plant",
+          "t": "“a large predominance of living plant biomass, even though organisms classified as animals are more conspicuous.” The pyramid; and coral respiration, about 53 mg/m²/hr, is a small part of the whole reef’s 1.0 g/m²/hr.",
+          "ref": [
+            "odum1955",
+            "311, 317, 319"
+          ]
+        },
+        {
+          "h": "A coral is a partnership",
+          "t": "“comparable to the algal-fungal complex of a lichen.” Three parts plant to one part animal; radioactivity confined to the polyp layer. The coral is “almost a whole ecological unit in itself.”",
+          "ref": [
+            "odum1955",
+            "301, 318"
+          ]
+        },
+        {
+          "h": "The reef stores scarce nutrients",
+          "t": "“act as a kind of soil.” Nitrogen and phosphorus “very low,” nitrogen scarcest; the reef concentrates fallout from water drifting “200 mi. from Bikini.”",
+          "ref": [
+            "odum1955",
+            "316, 319"
+          ]
+        }
+      ],
+      "refs": [
+        [
+          "odum1955",
+          "301, 311, 316–19"
+        ],
+        [
+          "aec1955",
+          "90"
+        ],
+        [
+          "odum1957",
+          "1–3"
+        ]
+      ],
+      "notes": "Three minutes. Advance → through four stops on the coral. Real Smithsonian scan of a modern Porites lobata, not collected at Japtan; the cut-away interior is a schematic. Ratio and 6% zooxanthellae: summary item 4 (p. 318). Radioautograph: Fig. 9 (p. 301), “typical of ten.” Fallout figures: p. 316, measured with an AEC survey meter. Present the fallout as the paper does, as a tool. Martin’s reading of it comes in Part 3. Then the three reef-biology claims underneath, one line each.",
+      "cues": [
+        "→ four stops",
+        "Real scan, modern specimen",
+        "3 : 1 plant to animal",
+        "Fallout as a tracer (paper’s view)",
+        "Three claims, one line each"
+      ]
+    },
+    {
+      "id": "ledger",
+      "layout": "ledger",
+      "kicker": "Part 2 · The paper · results",
+      "title": "Results",
+      "minutes": 3,
+      "lead": "They did three things: weighed everything alive, measured the energy it made and used, and compared the two.",
+      "steps": [
+        {
+          "h": "Weight",
+          "t": "How much living matter is on the reef, in grams per square metre: plants and algae (producers), plant-eaters (herbivores) and meat-eaters (carnivores)."
+        },
+        {
+          "h": "Energy",
+          "t": "How much oxygen the water gained by day and lost by night, turned into grams of sugar (glucose)."
+        },
+        {
+          "h": "Comparison",
+          "t": "What the reef makes in a year against how much it weighs, and against the sunlight that hit it."
+        }
+      ],
+      "pyramid": {
+        "levels": [
+          {
+            "h": "Carnivores",
+            "v": 11
+          },
+          {
+            "h": "Herbivores",
+            "v": 132
+          },
+          {
+            "h": "Producers",
+            "v": 703
+          }
+        ],
+        "unit": "g dry biomass per m², mean of quadrats A–F",
+        "ratios": "Herbivores / producers 18.9% · carnivores / herbivores 8.3%",
+        "ref": [
+          "odum1955",
+          "311, fig. 10"
+        ]
+      },
+      "sheet": {
+        "caption": "Table 17 · energy in and out of the reef in July, g/m²/day",
+        "income": [
+          [
+            "Plankton carried in from the breaker zone",
+            "2.0"
+          ],
+          [
+            "Net daytime production",
+            "14.0"
+          ],
+          [
+            "Respiration during daytime",
+            "10.0"
+          ]
+        ],
+        "incomeTotal": "26.0",
+        "outgo": [
+          [
+            "Plankton lost to the lagoon",
+            "0.4"
+          ],
+          [
+            "Total respiration in 24 hours",
+            "24.0"
+          ]
+        ],
+        "outgoTotal": "24.4",
+        "ref": [
+          "odum1955",
+          "316, table 17"
+        ]
+      },
+      "derived": [
+        {
+          "n": "24",
+          "u": "grams of sugar per m² per day",
+          "t": "about 74,300 lb per acre per year: 120 times the open water flowing onto the reef, twice Sargent and Austin’s Rongelap reef",
+          "ref": [
+            "odum1955",
+            "314"
+          ]
+        },
+        {
+          "n": "12.5×",
+          "u": "times its own weight, every year",
+          "t": "a year’s production (8,760 g/m²) divided by the standing crop (about 700 g/m²)",
+          "ref": [
+            "odum1955",
+            "318"
+          ]
+        },
+        {
+          "n": "5.8%",
+          "u": "of the sunlight turned into food",
+          "t": "96 of about 1,650 kcal/m²/day of sunlight reaching the reef, “built for a low efficiency”",
+          "ref": [
+            "odum1955",
+            "318"
+          ]
+        }
+      ],
+      "refs": [
+        [
+          "odum1955",
+          "293, 311, 314, 316–18"
+        ],
+        [
+          "golley1993",
+          "81–83"
+        ],
+        [
+          "taylor1988",
+          "230–31"
+        ]
+      ],
+      "notes": "This is the heart of the case: what the Odums actually did with their six weeks. Walk left to right. (1) The pyramid: 703 / 132 / 11 g per m². Plants outweigh herbivores about five to one; this is Fig. 10, the figure that went into textbooks. (2) The balance sheet: read income, then outgo. 26.0 in, 24.4 out. That near-balance is why they call the reef a “steady state.” (3) Three derived numbers. 24 g glucose per m² per day, which they convert to 74,300 lb per acre per year and compare with agriculture; turnover 12.5 times a year; efficiency 5.8%. Then the caveats, in their own words. Point out the 4% vs 6% discrepancy: my arithmetic, from their own table. Golley (81–83) treats the first-law balance as a check on measurement accuracy — keep that reading open for the activity. Winter light is 15–20% lower, so they argue an annual balance “may be expected” (p. 317): an expectation, not a measurement. Press R and page to Table 17 (p. 316) if asked. Then the climax of Act II: from those numbers, two general claims. The steady state (“a true ecological climax or open steady-state system”) and the low-efficiency optimum, which Tom offered as support for Odum and Pinkerton’s 1955 theory (Taylor 230–31). Read the civilization sentence: it is the first time it is said, and the reason the reef mattered to them. End on the purpose line (p. 319): the baseline is for measuring the effects of nuclear explosions.",
+      "cues": [
+        "Pyramid: 703 / 132 / 11",
+        "Ledger: 26.0 in, 24.4 out",
+        "24 g · 12.5× · 5.8%",
+        "“Only 4%” vs table ≈ 6%",
+        "Their own caveats",
+        "Steady state + low efficiency",
+        "Civilization sentence (first time)",
+        "Purpose: nuclear explosions"
+      ],
+      "summary": {
+        "h": "Odums’ conclusion",
+        "paras": [
+          {
+            "t": "The authors say their numbers are rough. Only the rough size of each number can be trusted, and a small difference may not mean anything.",
+            "refs": [
+              [
+                "odum1955",
+                "293"
+              ],
+              [
+                "odum1955",
+                "317"
+              ]
+            ]
+          },
+          {
+            "t": "Even so, they conclude that the reef is in a steady state. What comes in is about what goes out, and living matter barely grows. They call it a stable, mature (climax) community.",
+            "refs": [
+              [
+                "odum1955",
+                "318–19"
+              ]
+            ]
+          },
+          {
+            "t": "They also say the reef runs at a fairly low efficiency, using about 6% of the light, and that this is the price of making so much food. They take this as support for Odum and Pinkerton’s 1955 theory.",
+            "refs": [
+              [
+                "odum1955",
+                "318–19"
+              ]
+            ]
+          },
+          {
+            "t": "They care about steady states because, as the first page puts it, “mankind’s great civilization is not in steady state and its relation with nature seems to fluctuate erratically and dangerously.”",
+            "refs": [
+              [
+                "odum1955",
+                "291"
+              ]
+            ]
+          },
+          {
+            "t": "The summary adds that the measurements could be used to judge the future effect of nuclear explosions, low-level radioactivity or other factors on the reef as a whole.",
+            "refs": [
+              [
+                "odum1955",
+                "319, summary 10"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "afterlife",
+      "layout": "mainstream",
+      "kicker": "Part 2 · Impact",
+      "title": "How this paper shaped ecology",
+      "minutes": 2,
+      "stat": {
+        "from": {
+          "year": 1957,
+          "value": 1
+        },
+        "to": {
+          "year": 1975,
+          "value": 162
+        },
+        "label": "Biological Abstracts titles containing “ecosystem”",
+        "ref": [
+          "golley1993",
+          "104–5"
+        ],
+        "note": "Golley gives the yearly series in his fig. 4.4; only the two endpoints are reproduced here."
+      },
+      "events": [
+        {
+          "years": "1956",
+          "h": "Mercer Award",
+          "t": "The paper wins the Ecological Society of America’s Mercer Award. Eugene: “It was in connection with an AEC grant that my brother … and I … found a happy meeting ground on the coral reef.”",
+          "ref": [
+            "martin2018",
+            "578"
+          ]
+        },
+        {
+          "years": "1957–60",
+          "h": "Energy-flow diagrams",
+          "t": "Tom’s Silver Springs energy-flow diagram becomes the general picture of ecosystems; in 1960 he recasts it as an electrical circuit.",
+          "ref": [
+            "taylor1988",
+            "231–32"
+          ]
+        },
+        {
+          "years": "1959–66",
+          "h": "Institutions",
+          "t": "Second edition with Tom (1959); Georgia’s Institute of Radiation Ecology (1961); in 1962 the AEC commits $360,000 to irradiating the El Verde rain forest.",
+          "ref": [
+            "golley1993",
+            "116–19"
+          ]
+        },
+        {
+          "years": "1964–74",
+          "h": "International Biological Program",
+          "t": "“The New Ecology” (1964). The International Biological Program adopts “the ecosystem theme throughout the program,” with 1,800+ scientists and about $57 million.",
+          "ref": [
+            "golley1993",
+            "138–39"
+          ]
+        },
+        {
+          "years": "1969–75",
+          "h": "Environmental politics",
+          "t": "Marsh valuations behind Georgia’s Coastal Marshlands Protection Act (1970); Tom’s net-energy test in federal law (1974); Newsweek’s “Odum’s Law” (1975).",
+          "ref": [
+            "fnerda1974",
+            "sec. 5(a)(5)"
+          ]
+        }
+      ],
+      "why": "Golley explains its appeal: environmentalists used the ecosystem “to maintain their faith in holism,” and “the manager and industrialist found the ecosystem equally attractive.” Kwa argues that Congress funded the IBP because ecologists and legislators shared an image of nature as a manageable “cybernetic machine.”",
+      "refs": [
+        [
+          "golley1993",
+          "3, 69, 84–85, 104–5, 116–19, 138–39"
+        ],
+        [
+          "hagen2008t",
+          "704–23"
+        ],
+        [
+          "taylor1988",
+          "231–32"
+        ],
+        [
+          "kwa1987",
+          "413–42"
+        ],
+        [
+          "fnerda1974",
+          "sec. 5(a)(5)"
+        ],
+        [
+          "crafoord1987",
+          ""
+        ],
+        [
+          "martin2018",
+          "578"
+        ],
+        [
+          "aronova2010",
+          "183–86"
+        ]
+      ],
+      "notes": "Two minutes. Timeline fast: award, diagram (the reef pyramid becomes a circuit), institutions, IBP, law. Then why it won (holists and managers both liked it), then the two scientific critiques in one breath each. Say the course link: this is institution building. The population ecologists’ target was Hairston, Smith and Slobodkin (1960), not the Odums by name. Crisp and Golley’s “marginal” are plan-cited.",
+      "cues": [
+        "1 → 162 titles",
+        "Award → circuit → IBP → law",
+        "Why it won",
+        "Two critiques",
+        "Course link: institutions"
+      ],
+      "critics": [
+        {
+          "h": "Population and evolutionary ecologists",
+          "t": "Murdoch (1966) and Ehrlich and Birch (1967) attacked trophic-level explanations of population control. Golley concedes: “a ‘trophic level’ exists only as an abstraction.”",
+          "ref": [
+            "golley1993",
+            "84–85"
+          ]
+        },
+        {
+          "h": "Critics of Big Ecology",
+          "t": "Dennis Crisp mocked calorie-counting in which “the juicy steak and the old leather boot become equals.” Golley judges the IBP’s contribution to theory “marginal.”",
+          "ref": [
+            "aronova2010",
+            "183–86"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frame",
+      "layout": "frame",
+      "kicker": "Part 3 · How historians read the Odums",
+      "title": "How historians viewed the paper",
+      "minutes": 1.5,
+      "lead": "Is science shaped from the inside, by its own questions and results, or from the outside, by society, politics and money?",
+      "positions": [
+        {
+          "name": "Golley (1993)",
+          "place": "Mostly internalist",
+          "t": "An insider’s history of a concept, written by “a participant” who later ran AEC-funded ecosystem research with Eugene Odum.",
+          "ref": [
+            "golley1993",
+            "xiii, 74"
+          ]
+        },
+        {
+          "name": "Taylor (1988)",
+          "place": "Mixed",
+          "t": "Ideas in their social setting. Technocratic optimism was “constitutive of his concepts, methods, and organization of research”; Taylor calls this “a partial reconciliation of strong externalist and realist interpretations.”",
+          "ref": [
+            "taylor1988",
+            "215"
+          ]
+        },
+        {
+          "name": "Martin (2018)",
+          "place": "Externalist, and material",
+          "t": "A “third and distinct approach” that adds material change: places, bombs, radioisotopes and marine organisms as part of how ecosystems came to exist.",
+          "ref": [
+            "martin2018",
+            "568"
+          ]
+        }
+      ],
+      "question": "This section goes through Golley, Taylor and Martin one by one. For each, it covers what they say the study was, what role they give the AEC and the bomb tests, and what they say the paper leaves out.",
+      "refs": [
+        [
+          "hh4092w34",
+          ""
+        ],
+        [
+          "golley1993",
+          "xiii, 74"
+        ],
+        [
+          "taylor1988",
+          "215"
+        ],
+        [
+          "martin2018",
+          "568 and nn. 3–4"
+        ]
+      ],
+      "notes": "Ninety seconds. Read the course definition, then place the three names on the line, left to right. Then the twist: Martin files Taylor with Golley (n. 3). By the course’s definition he is externalist; by Martin he is a historian of ideas. Use it to say the course’s own caution: hard to be purely one or the other. End on the three questions; they structure the next three sections and the comparison in Part 4.",
+      "cues": [
+        "Read the definition",
+        "Golley → Taylor → Martin on the line",
+        "Footnote 3: Taylor with Golley?",
+        "Three questions"
+      ]
+    },
+    {
+      "id": "golley",
+      "layout": "reading",
+      "kicker": "Part 3 · Golley (1993)",
+      "title": "Golley: an ordinary study with the AEC in the background",
+      "minutes": 2,
+      "band": {
+        "name": "Frank B. Golley",
+        "work": "A History of the Ecosystem Concept in Ecology: More Than the Sum of the Parts (Yale, 1993)"
+      },
+      "lead": "Golley was an ecosystem ecologist before he became a historian. In 1958 he joined Eugene Odum’s AEC-funded field studies at Savannah River, and he describes himself as “a participant in the story.”",
+      "leadRefs": [
+        [
+          "golley1993",
+          "xiii, 74, 82"
+        ]
+      ],
+      "rows": [
+        {
+          "h": "Early energy studies",
+          "q": "Eugene Odum and Howard Odum together studied the dynamic behavior of a coral reef on Eniwetok atoll in 1954.",
+          "e": "Golley lists the reef study among early energy studies by “a relatively small group of ecologists” who were “exploring the implications of the laws of thermodynamics.”",
+          "ref": [
+            "golley1993",
+            "82"
+          ]
+        },
+        {
+          "h": "The 4% gap",
+          "q": "the first law provided a balance sheet that could be used to check the accuracy of the measurements",
+          "e": "The Odums “discovered another 4 percent difference between input and output on Japtan Reef.” The Silver Springs study had the same size gap, and Golley says the data cannot tell “whether a 4 percent difference is significant or not.”",
+          "ref": [
+            "golley1993",
+            "81–83"
+          ]
+        },
+        {
+          "h": "Funding was an opportunity",
+          "q": "Theory and the availability of funds together produced vigorous research activity.",
+          "e": "Golley says ecologists “tended to accept the cold war as a fact of life and welcomed the opportunities military research made available.” They did not see the link to the military clearly: it “was never obvious, and ecologists seemed oblivious to the connection.”",
+          "ref": [
+            "golley1993",
+            "73, 105"
+          ]
+        },
+        {
+          "h": "He admits the limits",
+          "q": "it began in analogical thought, authoritarian statements, and physical laws—not in questions",
+          "e": "Golley says that pairing pyramids of biomass with whole-system metabolism was “comparing apples and oranges,” and that in the ecosystem model “species acted abstractly, like robots.”",
+          "ref": [
+            "golley1993",
+            "82, 93, 106"
+          ]
+        }
+      ],
+      "view": "Golley’s view: this was an ordinary study with an unusual sponsor. The AEC is in the background and the ecosystem concept is the story. He still admits the field started from its conclusions.",
+      "refs": [
+        [
+          "golley1993",
+          "xiii, 73–74, 81–83, 93, 105–6"
+        ]
+      ],
+      "notes": "Two minutes. Golley is the Week 11 reading and an insider, but not naive. Read row 3 slowly: “a fact of life.” Then row 4: Golley himself says the energy approach “began in analogical thought … not in questions.” That sentence is the bridge to Martin, who says the same thing about the reef with archival evidence. His view in one line: normal science, unusual sponsor.",
+      "cues": [
+        "Insider: “a participant”",
+        "Balance sheet = a check",
+        "“Fact of life”",
+        "“not in questions”: bridge to Martin"
+      ]
+    },
+    {
+      "id": "taylor",
+      "layout": "reading",
+      "kicker": "Part 3 · Taylor (1988)",
+      "title": "Taylor: the reef as a model for managing society",
+      "minutes": 2.5,
+      "band": {
+        "name": "Peter J. Taylor",
+        "work": "“Technocratic Optimism, H. T. Odum, and the Partial Transformation of Ecological Metaphor after World War II,” Journal of the History of Biology 21 (1988)"
+      },
+      "lead": "Taylor is about Tom Odum, not the reef. His question is why a postwar ecologist wanted nature to look like a system that could be measured, balanced and controlled.",
+      "leadRefs": [
+        [
+          "taylor1988",
+          "213–15"
+        ]
+      ],
+      "rows": [
+        {
+          "h": "Optimism shaped science",
+          "q": "more than being the context of his work, technocratic optimism is constitutive of his concepts, methods, and organization of research",
+          "e": "This is stronger than saying society influenced science. For Taylor, the optimism is built into the concepts themselves.",
+          "ref": [
+            "taylor1988",
+            "215"
+          ]
+        },
+        {
+          "h": "The project in the 1955 paper",
+          "q": "Odum’s project of designing systems of man and nature surfaced in his 1955 monograph on the Eniwetok coral reef",
+          "e": "This is why the paper’s first page says that in this “relatively isolated system man can learn about optima for utilizing sunlight and raw materials.”",
+          "ref": [
+            "taylor1988",
+            "241"
+          ],
+          "ref2": [
+            "odum1955",
+            "291"
+          ]
+        },
+        {
+          "h": "Comparison with Technocracy",
+          "q": "reduced the complexity of social and ecological relations to a single energy dial for the social engineers to adjust",
+          "e": "Taylor compares Tom to Howard Scott’s Technocracy movement of the 1930s, which wanted energy certificates instead of prices, and to Lotka’s energy theory of evolution. He treats these as similarities only. He does not show that Tom read Scott.",
+          "ref": [
+            "taylor1988",
+            "214–15, 230–31, 241"
+          ]
+        },
+        {
+          "h": "Science as a guide to society",
+          "q": "Let us inject systems science in overdoses into the seminaries and see what happens.",
+          "e": "Tom wrote this in 1971. Taylor reads it as where the optimism ended up: science guiding society, with the systems scientist in charge.",
+          "ref": [
+            "taylor1988",
+            "242"
+          ]
+        }
+      ],
+      "view": "Taylor’s view: the paper shows Tom’s technocratic worldview. The AEC funded the work that let him pursue it, and the bomb tests barely appear.",
+      "refs": [
+        [
+          "taylor1988",
+          "213–15, 225, 230–31, 241–42"
+        ],
+        [
+          "odum1955",
+          "291"
+        ]
+      ],
+      "notes": "Two and a half minutes. Taylor is about Tom. Row 1 is his thesis sentence; say “constitutive” and explain it: not context but ingredient. Row 2 links back to the paper’s first page, which the class saw in Part 2. Row 3: Technocracy and Lotka are parallels, not proven influence; Taylor says so himself. Row 4: read the seminaries line; let it land. Then the course link. His view: a worldview made visible; the bomb is almost absent.",
+      "cues": [
+        "“Constitutive”",
+        "Back to p. 291",
+        "Single energy dial (parallel, not proof)",
+        "Seminaries",
+        "Course link: ecology ↔ sociology"
+      ]
+    },
+    {
+      "id": "martin",
+      "layout": "martin",
+      "kicker": "Part 3 · Martin (2018)",
+      "title": "Martin: the proving ground made the ecosystem",
+      "minutes": 6,
+      "band": {
+        "name": "Laura J. Martin",
+        "work": "“Proving Grounds: Ecological Fieldwork in the Pacific and the Materialization of Ecosystems,” Environmental History 23 (2018)"
+      },
+      "claim": "“The history of ecosystem science cannot be separated from the history of nuclear colonialism and environmental devastation in the Pacific Proving Grounds.”",
+      "claimRef": [
+        "martin2018",
+        "567"
+      ],
+      "method": "Martin reads more than the printed paper. She uses the Odums’ field notes, maps and letters from the University of Georgia archives, and she treats bombs, radioisotopes and marine animals as actors in the story. She concludes that ecosystems “were not discovered; nor were they constructed entirely by scientists.” In her word, they materialized.",
+      "methodRefs": [
+        [
+          "martin2018",
+          "568–69, 577, 584"
+        ]
+      ],
+      "punch": "Violence made ecosystems manifest.",
+      "punchRef": [
+        "martin2018",
+        "569"
+      ],
+      "stops": [
+        {
+          "id": "hydroids",
+          "label": "Before the Odums: the hydroids",
+          "media": "martin-fig3",
+          "caption": "Martin starts at Bikini in 1947. Scientists expected the Pacific to dilute the fallout from the 1946 tests. Then someone ran a Geiger counter over hydroids growing on a ship’s wooden crates: they were about a thousand times as radioactive as the lagoon water. Radioautographs showed radioactivity concentrated inside animals. “Atomic weapons had thus made connections among species visible.”",
+          "refs": [
+            [
+              "martin2018",
+              "572–75"
+            ]
+          ]
+        },
+        {
+          "id": "theory",
+          "label": "a · Theory before the trip",
+          "media": "quote",
+          "quote": "I think we can talk up some new theories too.",
+          "quoteBy": "Tom to Eugene, before the trip",
+          "caption": "Martin: the Odums “did not ‘discover’ evidence of ecosystems at Enewetak; rather, they theorized Enewetak’s coral reefs as ecosystems years before they arrived.” Back home, the pyramids confirmed what they expected: “it really looks like there is an underlying constancy in these things.”",
+          "refs": [
+            [
+              "martin2018",
+              "576, 578"
+            ]
+          ]
+        },
+        {
+          "id": "notes",
+          "label": "b · Field notes against the printed page",
+          "media": "martin-fig4",
+          "caption": "The field maps are full of question marks and notes like “greenish yellow coral.” Averages from one or a few dried samples hid “the substantial variation among samples,” and one entry reads “These values not good; specimens dried in oven too long.” Species were sorted, “often guessing,” into trophic levels. In print, quadrat B’s coral edges are smoothed and smaller colonies are gone.",
+          "refs": [
+            [
+              "martin2018",
+              "577, fig. 4"
+            ]
+          ]
+        },
+        {
+          "id": "evidence",
+          "label": "c · The bomb as evidence",
+          "media": "odum-fig9",
+          "caption": "The radioautographs that showed corals feeding their algae worked only because the reef was radioactive: the fission products of ten detonations “became evidence of symbiosis.” Yet the Odums told the AEC they “were not primarily concerned with the effects of radiation,” and the AEC “vetted all of their scientific publications and often censored words like ‘fallout.’”",
+          "refs": [
+            [
+              "martin2018",
+              "578, 581–82"
+            ],
+            [
+              "odum1955",
+              "301, fig. 9"
+            ]
+          ]
+        },
+        {
+          "id": "isolate",
+          "label": "d · The myth of the isolated laboratory",
+          "media": "atoll",
+          "caption": "The paper calls the reef an “isolated system” “little affected by nuclear explosions.” AEC films called the atoll “secluded” and “primitive,” even “Enewetak university.” Martin: “the atolls were neither isolated nor pristine.” Beaches littered with barges and scrap; a lab, chapels and the Back N’ Atom Bar; 75 million gallons of water shipped in for one test series. And not empty: “As the rest of the world worried about the possibility of atomic violence, Marshall Islanders lived it.”",
+          "courseLink": {
+            "week": "Course link · Week 6 · access to the field",
+            "t": "The ecologists got access to the atoll because its residents had been removed."
+          },
+          "refs": [
+            [
+              "martin2018",
+              "578–81"
+            ]
+          ]
+        },
+        {
+          "id": "after",
+          "label": "e · After the reef",
+          "media": "diff",
+          "caption": "In 1963 Eugene said nuclear detonations were no different from storms, forest fires and pest outbreaks. One textbook sentence changes between editions (right). By the 1960s ecologists were damaging ecosystems on purpose to study recovery: “ecologists need not feel bashful about attacking ecosystems so long as they observe the rules of good science.” Martin’s conclusion: the rise of ecology “was not a response to the perception of environmental decline but one of its preconditions.”",
+          "refs": [
+            [
+              "martin2018",
+              "581, 583–85"
+            ]
+          ]
+        }
+      ],
+      "diff": {
+        "h": "Fundamentals of Ecology, on radioactive tracers",
+        "a": {
+          "ed": "2nd edition, 1959",
+          "t": "Man’s opportunity to learn more about environmental processes through the use of radioactive tracers balances the possible troubles he may have with environmental contamination."
+        },
+        "b": {
+          "ed": "3rd edition, 1971",
+          "t": "Man’s opportunity to learn more about environmental processes through the use of radioactive tracers balances to some extent the troubles he is having with environmental contamination."
+        },
+        "ref": [
+          "martin2018",
+          "583"
+        ]
+      },
+      "view": "Martin’s view: the reef was not discovered but materialized. The proving ground was a condition of the result, and the paper leaves it out.",
+      "refs": [
+        [
+          "martin2018",
+          "567–85"
+        ]
+      ],
+      "notes": "Six minutes; this is the centre of Part 3. Open with the claim and the method: archives, not just the paper; bombs and animals as actors. Say “Violence made ecosystems manifest” and pause. Then → through six cards. Hydroids: thirty seconds, it is the prequel (radioactivity concentrated in living things). a: Tom’s letter, then “theorized … years before they arrived.” Remind the class of Golley’s “not in questions.” b: point at the two maps of quadrat B. c: the radioautograph they saw in Part 2, now read as Martin reads it. d: the paper’s words against Martin’s list; say the course link. e: read the two textbook sentences and let the class spot the change. Martin’s view in one line, then into the limits.",
+      "cues": [
+        "Claim + method",
+        "“Violence made ecosystems manifest”",
+        "Hydroids: 30 s",
+        "a: “new theories too”",
+        "b: quadrat B, two maps",
+        "c: fallout = evidence",
+        "d: “neither isolated nor pristine”",
+        "e: 1959 vs 1971"
+      ]
+    },
+    {
+      "id": "martin-limits",
+      "layout": "limits",
+      "kicker": "Part 3 · Limits of Martin’s argument",
+      "title": "Where Martin overstates",
+      "minutes": 2,
+      "lead": "",
+      "items": [
+        {
+          "id": "older",
+          "h": "The idea is older than the bomb",
+          "t": "Tansley (1935), Lindeman (1942) and Hutchinson’s balanced budgets came first, and, as Taylor shows, Tom’s 1950 dissertation already treated the strontium cycle as “self-balancing.” Martin quotes Tom finding the same pyramids at Silver Springs, a Florida tourist spring. “Violence made ecosystems manifest” generalizes from one kind of site.",
+          "fair": "Martin would answer that she means materialization, not the concept. Fair, but her strongest sentences go further.",
+          "refs": [
+            [
+              "bocking2013",
+              "43–44"
+            ],
+            [
+              "taylor1988",
+              "225"
+            ],
+            [
+              "martin2018",
+              "569, 578"
+            ]
+          ]
+        },
+        {
+          "id": "side",
+          "h": "The fallout supported a side claim",
+          "t": "The pyramid and the 26.0 / 24.4 budget came from weighed samples and oxygen measured in flowing water. The radioautographs supported one claim, the coral–algae partnership (fig. 9).",
+          "refs": [
+            [
+              "odum1955",
+              "301, 311, 314–16"
+            ]
+          ]
+        },
+        {
+          "id": "admitted",
+          "h": "The paper admitted its roughness",
+          "t": "Martin says ecologists “repeatedly deemphasized their fieldwork and its attendant contingencies.” The paper says “it is the orders of magnitude which mainly emerge,” that production was underestimated, and that it is “not certain whether this is a significant difference.” What it leaves out is the politics, not the uncertainty.",
+          "refs": [
+            [
+              "martin2018",
+              "569"
+            ],
+            [
+              "odum1955",
+              "293, 314, 317"
+            ]
+          ]
+        },
+        {
+          "id": "held",
+          "h": "The result held up",
+          "t": "Later reef science found reef flats close to balance: reviewing the measurements, Gattuso, Frankignoulle and Smith write that reef-flat metabolism of organic carbon “is nearly balanced (Pg/R ≈ 1).” Teams went back to Enewetak’s windward reef to remeasure it (Johannes et al. 1972; Smith and Marsh 1973). One July survey could not prove a yearly balance, but it reached a lasting answer.",
+          "refs": [
+            [
+              "gattuso1999",
+              "13017–22"
+            ],
+            [
+              "johannes1972",
+              "541–43"
+            ],
+            [
+              "smith1973",
+              "953–61"
+            ]
+          ]
+        },
+        {
+          "id": "agency",
+          "h": "Her own evidence shows choice",
+          "t": "Martin concedes that AEC ecologists “were largely able to pursue their own research agendas,” and that the AEC “had no interest in bird fat” but liked Tom’s methods. Golley: “Theory and the availability of funds together produced vigorous research activity.” The tests set the stage; the brothers chose what to measure and how.",
+          "refs": [
+            [
+              "martin2018",
+              "576, 581"
+            ],
+            [
+              "golley1993",
+              "73"
+            ]
+          ]
+        },
+        {
+          "id": "voices",
+          "h": "My critique: who gets to act?",
+          "ours": true,
+          "t": "Martin gives agency to hydroids, corals and bombs, but the Marshallese appear mainly as victims, with one sentence on Islanders later using the ecosystem idea in their own anticolonial struggles. Because it relies on ecologists’ archives, it mostly tells the ecologists’ side.",
+          "refs": [
+            [
+              "martin2018",
+              "581, 585"
+            ]
+          ]
+        }
+      ],
+      "refs": [
+        [
+          "martin2018",
+          "569, 576–85"
+        ],
+        [
+          "odum1955",
+          "293, 301, 311, 314–17"
+        ],
+        [
+          "bocking2013",
+          "43–44"
+        ],
+        [
+          "taylor1988",
+          "225"
+        ],
+        [
+          "golley1993",
+          "73"
+        ],
+        [
+          "gattuso1999",
+          "13017–22"
+        ],
+        [
+          "johannes1972",
+          "541–43"
+        ],
+        [
+          "smith1973",
+          "953–61"
+        ]
+      ],
+      "notes": "Two minutes. OPTIONAL SECTION: switch off with showMartinLimits=false in config.json, or hide one card with \"hide\": true on its item. One line per card. Card 4: only the Gattuso quotation has been checked; Johannes and Smith & Marsh are cited as re-measurements, not quoted. Card 6 is your own critique and pushes the other way: Martin is, if anything, not critical enough about whose voices she uses.",
+      "cues": [
+        "No published reply: my limits",
+        "Older than the bomb",
+        "Fallout = side claim",
+        "Paper admits roughness",
+        "Result held up",
+        "Martin’s own concession",
+        "My critique: who acts?"
+      ]
+    },
+    {
+      "id": "perspectives",
+      "layout": "compare",
+      "kicker": "Part 4 · Synthesis",
+      "title": "Their perspectives on Odum’s paper",
+      "minutes": 2.5,
+      "columns": [
+        {
+          "name": "Golley (1993)",
+          "work": "A History of the Ecosystem Concept in Ecology"
+        },
+        {
+          "name": "Taylor (1988)",
+          "work": "“Technocratic Optimism, H. T. Odum, and the Partial Transformation of Ecological Metaphor”"
+        },
+        {
+          "name": "Martin (2018)",
+          "work": "“Proving Grounds”",
+          "main": true
+        }
+      ],
+      "rows": [
+        {
+          "element": "What the study was",
+          "cells": [
+            {
+              "t": "A key measurement in the development of the ecosystem concept. Golley notes that the Odums “discovered another 4 percent difference between input and output,” and he writes as “a participant.”",
+              "ref": [
+                "golley1993",
+                "xiii, 83"
+              ]
+            },
+            {
+              "t": "The place where Tom’s “project of designing systems of man and nature surfaced.” Taylor argues that technocratic optimism was “constitutive of his concepts, methods, and organization of research.”",
+              "ref": [
+                "taylor1988",
+                "214–15, 241"
+              ]
+            },
+            {
+              "t": "Not a discovery but a materialization. The Odums “theorized Enewetak’s coral reefs as ecosystems years before they arrived,” and the proving ground supplied the rest.",
+              "ref": [
+                "martin2018",
+                "576, 584"
+              ]
+            }
+          ]
+        },
+        {
+          "element": "Role of the AEC and the bomb tests",
+          "cells": [
+            {
+              "t": "A source of money and sites that ecologists used for their own research. Ecologists “seemed oblivious” to the military connection and accepted the cold war “as a fact of life.”",
+              "ref": [
+                "golley1993",
+                "73, 105"
+              ]
+            },
+            {
+              "t": "Taylor focuses on postwar ideas more than on the bomb. Like Howard Scott, Tom “reduced the complexity of social and ecological relations to a single energy dial for the social engineers to adjust.”",
+              "ref": [
+                "taylor1988",
+                "241–42"
+              ]
+            },
+            {
+              "t": "Martin treats the tests as part of the evidence. The fission products of ten detonations “became evidence of symbiosis,” and the AEC “vetted all of their scientific publications.”",
+              "ref": [
+                "martin2018",
+                "578, 582"
+              ]
+            }
+          ]
+        },
+        {
+          "element": "What the paper leaves out",
+          "cells": [
+            {
+              "t": "The costs of the method. Species “acted abstractly, like robots,” and pairing pyramids with whole-system metabolism was “comparing apples and oranges.”",
+              "ref": [
+                "golley1993",
+                "93, 106"
+              ]
+            },
+            {
+              "t": "Counting the reef in energy units makes it look like a system someone could manage, and the paper offers it to “man” as a lesson in “optima.” (My summary of Taylor.)",
+              "ref": [
+                "taylor1988",
+                "241"
+              ]
+            },
+            {
+              "t": "The differences between field log and print, and “the multiple nuclear detonations that occasioned their fieldwork.” “The atolls were neither isolated nor pristine.”",
+              "ref": [
+                "martin2018",
+                "577–79"
+              ]
+            }
+          ]
+        },
+        {
+          "element": "What each sees that the others miss",
+          "cells": [
+            {
+              "t": "The science from inside: what the method could and could not measure, from the 4 percent gap to “apples and oranges.”",
+              "ref": [
+                "golley1993",
+                "83, 93"
+              ]
+            },
+            {
+              "t": "Why the Odums wanted a balanced, steerable nature in the first place.",
+              "ref": [
+                "taylor1988",
+                "215, 241"
+              ]
+            },
+            {
+              "t": "The place: the tests, the base and the people removed, which made an “isolated” reef available to study.",
+              "ref": [
+                "martin2018",
+                "578–81"
+              ]
+            }
+          ]
+        }
+      ],
+      "also": "Taylor’s story has almost no reef in it; Martin’s has little postwar ideology; Golley has both, but as background. Read together, the 1955 paper is science shaped by ideas and by the place where it was done.",
+      "alsoRefs": [],
+      "refs": [
+        [
+          "golley1993",
+          "xiii, 73, 83, 93, 105–6"
+        ],
+        [
+          "taylor1988",
+          "214–15, 241–42"
+        ],
+        [
+          "martin2018",
+          "576–84"
+        ]
+      ],
+      "notes": "Two and a half minutes. Read across each row so the class sees the same object change. The new bottom row is the point of this section: each historian sees something the others miss. Taylor’s row-three cell is your summary of his argument, not a quotation. Then the sentence under the grid. This is the “all three are needed” step; the class activity comes next, then the verdict.",
+      "cues": [
+        "Read across rows",
+        "Bottom row: what each misses",
+        "“Ideas and the place”"
+      ]
+    },
+    {
+      "id": "activity",
+      "layout": "activity",
+      "kicker": "Class activity",
+      "title": "Primary Source Activity",
+      "minutes": 12,
+      "plan": [],
+      "refs": [
+        [
+          "aec1955",
+          "31, 32, 90"
+        ]
+      ],
+      "notes": "Kahoot warm-up first if you are using it. Then put this screen up: groups scan the QR code and highlight the report in the Google Doc as their historian. Switch to the Doc to show the class the three colours on one page, then go into the verdict.",
+      "cues": [
+        "Kahoot warm-up",
+        "QR: open the Google Doc",
+        "Highlight as your historian",
+        "Show the Doc: three readings of one page",
+        "→ verdict"
+      ],
+      "task": "Scan the code or open the link. Your group is one historian: Golley, Taylor or Martin. Highlight the sentences of the 1955 AEC report your historian would quote, in your colour."
+    },
+    {
+      "id": "verdict",
+      "layout": "verdict",
+      "kicker": "Part 4 · Verdict",
+      "title": "Martin is mostly right…",
+      "minutes": 3.5,
+      "right": {
+        "h": "Martin is right that",
+        "items": [
+          "the Odums brought the self-balancing reef with them: the theory came before the data;",
+          "the “isolated,” “little affected” reef existed because the AEC had moved people off the atoll and turned it into a test site;",
+          "the paper leaves out the tests, the base and the dri-Enewetak, and the textbooks followed the paper."
+        ]
+      },
+      "over": {
+        "h": "She overstates when she implies that",
+        "items": [
+          "the bomb made the ecosystem: the idea and its energy accounting are older than the proving ground;",
+          "the fallout carried the result: it supported a side claim, while the budget came from oxygen and weighed samples;",
+          "the paper hid its uncertainty: it admitted its rough numbers, and later reef science broadly confirmed them."
+        ]
+      },
+      "ours": "Ultimately, Martin wasn’t questioning whether the Odums’ results were correct or not (which it was), she was more concerned on what were the conditions that made the reef an area of study. It was no question that this reef became THE model of a self-contained, self-balancing system, but the paper left out why scientists could use it: nuclear tests, the military base, and the people who had been moved away to Ujelang. Golley calls this “a fact of life” and Taylor focuses on ideas, so they don’t touch on it. The correction is that the bomb did not create the result. The idea of a balanced ecosystem was older, from Tansley, Lindeman and Hutchinson. The measurements were rough, and the paper said so. Later studies found that reef flats really are close to balance. So the reef’s budget did roughly balance. What the paper left out was the cost of studying it there.",
+      "refs": [
+        [
+          "martin2018",
+          "569, 576–85"
+        ],
+        [
+          "golley1993",
+          "73"
+        ],
+        [
+          "taylor1988",
+          "215, 241"
+        ],
+        [
+          "odum1955",
+          "291, 293, 317"
+        ],
+        [
+          "gattuso1999",
+          "13017–22"
+        ],
+        [
+          "bocking2013",
+          "43–44"
+        ]
+      ],
+      "notes": "Three and a half minutes. This is your own judgment: say “I.” Read the two columns quickly, then the verdict paragraph. The pull quote is the strongest point from the “Martin is right, full stop” draft: keep it, it stops the verdict sounding like a defence of the Odums. Then the four course links, one sentence each, and the closing line over the atoll image.",
+      "cues": [
+        "Right / overstates",
+        "Verdict: “with one correction”",
+        "Pull: numbers ≠ answer to Martin",
+        "Four course links",
+        "Closing line"
+      ]
+    },
+    {
+      "id": "bibliography",
+      "layout": "bibliography",
+      "kicker": "Bibliography",
+      "title": "Sources",
+      "minutes": 0,
+      "refs": [],
+      "notes": "Chicago 17th notes-bibliography. Each entry links to the bibliography.",
+      "cues": [
+        "Leave up during questions"
+      ]
+    }
+  ]
+}

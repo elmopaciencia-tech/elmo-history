@@ -1,0 +1,77 @@
+/* Footer rules from HH4021's Shorthand export, scoped to its original container. */
+.Project-FooterContainer {
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  color: #333;
+  font: 20px/1.7 'PT Serif', serif;
+}
+.Project-FooterContainer .Project-Footer {
+  max-width: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.Project-FooterContainer .Project-Footer--left { padding-left: 15px; min-width: 200px; }
+.Project-FooterContainer .Theme-Logos { height: 44px; display: inline-flex; }
+.Project-FooterContainer .Theme-Default-Logos { display: flex; }
+.Project-FooterContainer .Theme-Logo {
+  vertical-align: top; width: 100%; min-width: auto; height: 100%;
+  margin-right: calc(10px + .5vw); display: flex;
+}
+.Project-FooterContainer .Theme-Logo a { height: 100%; display: block; }
+.Project-FooterContainer .Theme-Logo img {
+  vertical-align: top; flex-shrink: 0; width: auto; max-width: none;
+  height: 100%; max-height: 100%; border: 0;
+}
+.Project-FooterContainer .Project-Footer--center { flex: 1; min-width: 0; }
+.Project-FooterContainer .Project-Navigation {
+  position: relative; display: flex; background-color: transparent; max-width: 100%;
+  padding: 0; margin: 0; justify-content: center;
+}
+.Project-FooterContainer .Theme-Navigation-ItemList {
+  display: flex; align-items: stretch; flex-wrap: nowrap; width: 100%;
+  list-style: none; padding: 0; margin: 0;
+}
+.Project-FooterContainer .Theme-NavigationBarItem { height: auto; align-self: stretch; min-height: 100%; }
+.Project-FooterContainer .Theme-NavigationLink {
+  display: block; border: none; margin: 0; padding: 8px 10px;
+  font: 700 16px/1 'Lato', sans-serif; color: inherit; text-align: left; text-decoration: none;
+}
+.Project-FooterContainer .Theme-NavigationLink:hover { color: inherit; }
+.Project-FooterContainer a:focus-visible { outline: 2px solid #333; outline-offset: 2px; border-radius: 2px; }
+.Project-FooterContainer .Project-Footer--right {
+  display: flex; flex-direction: column; justify-content: space-between;
+  align-items: flex-end; padding-right: 15px; min-width: 200px;
+}
+.Project-FooterContainer .Theme-SocialIcons { display: flex; position: relative; margin: 0; height: 40px; }
+@media (min-width: 1100px) {
+  .Project-FooterContainer .Project-Footer--left { min-height: 50px; }
+  .Project-FooterContainer .Theme-Navigation-ItemList { justify-content: center; }
+}
+@media (max-width: 1099.98px) {
+  .Project-FooterContainer { font-size: 18px; }
+  .Project-FooterContainer .Theme-Logos { height: 38px; }
+  .Project-FooterContainer .Theme-NavigationLink { padding: 15px; font-size: 17px; }
+}
+@media (max-width: 899.98px) {
+  .Project-FooterContainer .Project-Footer { flex-direction: column; align-items: center; }
+  .Project-FooterContainer .Project-Footer--left,
+  .Project-FooterContainer .Project-Footer--right { min-width: auto; }
+  .Project-FooterContainer .Theme-Logos { height: 32px; }
+  .Project-FooterContainer .Project-Footer--center { width: 100%; }
+  .Project-FooterContainer .Theme-Navigation-ItemList { flex-direction: column; margin: 1em auto; }
+  .Project-FooterContainer .Theme-NavigationLink { text-align: center; }
+}
+@media (max-width: 619.98px) {
+  .Project-FooterContainer { font-size: 17px; }
+}
+/* Mobile: compact, wrapping link row (items were stretching to the list's full height). */
+@media (max-width: 899.98px) {
+  .Project-FooterContainer .Project-Footer { padding: 24px 16px calc(20px + env(safe-area-inset-bottom)); gap: 8px; }
+  .Project-FooterContainer .Project-Footer--left { padding-left: 0; }
+  .Project-FooterContainer .Project-Footer--right { display: none; }
+  .Project-FooterContainer .Theme-Navigation-ItemList { flex-direction: row; flex-wrap: wrap; justify-content: center; margin: 4px auto 0; max-width: 520px; }
+  .Project-FooterContainer .Theme-NavigationBarItem { min-height: 0; align-self: auto; }
+  .Project-FooterContainer .Theme-NavigationLink { padding: 12px 12px; font-size: 15px; }
+}
